@@ -432,7 +432,7 @@
     .the-header .burger-container {
         position: absolute;
         right: 10px;
-        top: 0;
+        top: -5px;
         margin-top: -10px;
         display: inline-block;
         height: 70px;
