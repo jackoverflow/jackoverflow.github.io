@@ -1,3 +1,14 @@
+/*15 inches screens*/
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1094px) 
+  and (orientation: landscape) 
+  {
+    .right.menu a {
+        font-size: 13px!important;
+    }
+  }
+
 @media only screen 
   and (min-width: 768px) 
   and (max-width: 1024px) 
