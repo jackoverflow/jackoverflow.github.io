@@ -222,7 +222,7 @@
       }   
       footer ul {
           position: absolute;
-          top: 15px;
+          top: 0;
           right: 30px;
       }
 
@@ -573,6 +573,9 @@
       footer {
           height: 105px;
       }       
+      footer .content {          
+          height: 80px;
+      }      
       footer .content p {
           display: block;
           text-align: center;
@@ -751,6 +754,9 @@
       footer {
           height: 105px;
       }       
+      footer .content {
+          height: 80px;
+      }
       footer .content p {
           display: block;
           text-align: center;
@@ -930,6 +936,9 @@
       footer {
           height: 105px;
       }       
+      footer .content {          
+          height: 80px;
+      }      
       footer .content p {
           display: block;
           text-align: center;
@@ -938,7 +947,7 @@
       footer ul {
           position: absolute;
           top: 50px;
-          left: 10px;
+          left: 0;
       }   
 
     .hero {
@@ -1104,6 +1113,9 @@
       footer {
           height: 105px;
       }       
+      footer .content {
+          height: 80px;
+      }
       footer .content p {
           display: block;
           text-align: center;
