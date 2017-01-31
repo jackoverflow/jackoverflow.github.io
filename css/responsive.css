@@ -682,7 +682,10 @@
     .the-header.menu-opened .burger-container #burger .bar.btmBar {
         -webkit-transform: translateY(3px) rotate(-45deg);
                 transform: translateY(3px) rotate(-45deg);
-    }        
+    } 
+    footer .menu ul {
+        text-align: center;
+    }       
 }
 
 /*samsung galaxy landscape view*/
@@ -857,7 +860,10 @@
     .the-header.menu-opened .burger-container #burger .bar.btmBar {
         -webkit-transform: translateY(3px) rotate(-45deg);
                 transform: translateY(3px) rotate(-45deg);
-    }        
+    }  
+    footer .menu ul {
+        text-align: center;
+    }      
 }
 
 
@@ -1208,9 +1214,9 @@
         -webkit-transform: translateY(3px) rotate(-45deg);
                 transform: translateY(3px) rotate(-45deg);
     }        
-    footer .menu ul {        
+    footer .menu ul {
         text-align: center;
-    }
+    }       
 }
 
 
