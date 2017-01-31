@@ -131,6 +131,17 @@ main .courses .readmore {
 main .courses .readmore:hover {
     background: #4d79ff;
 }
+main .courses {    
+    padding-bottom: 30px;    
+    position: relative;
+}
+main .courses a.viewallcourses {    
+    font-family: 'Flama-LightItalic';
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 .bottom-container {
     background: #e1e1e1;
