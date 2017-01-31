@@ -39,6 +39,9 @@ h1.logo a {
     width: 298px;
 }
 
+.burger-container, .menu.mobile, .shop.icon {
+    position: absolute;
+}
 .topbar {
     background: #081e43;
     padding: 15px 0 25px 0;    
