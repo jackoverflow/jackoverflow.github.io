@@ -132,7 +132,7 @@ main .courses .readmore:hover {
     background: #4d79ff;
 }
 main .courses {    
-    padding-bottom: 30px;    
+    padding-bottom: 40px!important;
     position: relative;
 }
 main .courses a.viewallcourses {    
@@ -141,6 +141,14 @@ main .courses a.viewallcourses {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+main .courses a.viewallcourses:hover,
+main .courses a.viewallcourses:hover i.angle { 
+    color: #3366ff;
+    cursor: pointer;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    transition: color 0.5s ease;
 }
 .bottom-container {
     background: #e1e1e1;
