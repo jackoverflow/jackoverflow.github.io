@@ -172,8 +172,12 @@ main .courses .readmore:hover {
 .block .faq-content:hover h4 {     
     color: #4d79ff;
 }
-.owl-nav {  
+.bottom .owl-nav {  
     display: none;  
+}
+.bottom .owl-dot span {    
+    height: 15px!important;
+    width: 15px!important;
 }
 footer {
     color: #7f8187; 
