@@ -858,6 +858,9 @@
         -webkit-transform: translateY(3px) rotate(-45deg);
                 transform: translateY(3px) rotate(-45deg);
     }        
+    footer .menu ul {        
+        text-align: center;
+    }
 }
 
 
