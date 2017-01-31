@@ -182,6 +182,9 @@ main .courses a.viewallcourses {
 .block .faq-content:hover h4 {     
     color: #4d79ff;
 }
+.block .faq-content a {
+    text-transform: none;
+}
 .bottom .owl-nav {  
     display: none;  
 }
