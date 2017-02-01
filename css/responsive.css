@@ -26,15 +26,15 @@
         display: block!important;
     }
     .topbar.the-header .menu.mobile li {
-        border-bottom: 1px solid #555;
-        margin-bottom: 10px;
-        padding-bottom: 10px;        
+        border-bottom: 1px solid #555;        
     }
     .topbar.the-header .menu.mobile li a {
         display: block;
+        padding: 10px 0;
         text-align: center;
     } 
     .topbar.the-header .menu.mobile li a:hover {
+        background: rgba(255,255,255,.2);
         color: #3366ff;
     }        
       .hero .the-message {
@@ -197,15 +197,15 @@
         display: block!important;
     }
     .topbar.the-header .menu.mobile li {
-        border-bottom: 1px solid #555;
-        margin-bottom: 10px;
-        padding-bottom: 10px;        
+        border-bottom: 1px solid #555;        
     }
     .topbar.the-header .menu.mobile li a {
         display: block;
+        padding: 10px 0;
         text-align: center;
     } 
     .topbar.the-header .menu.mobile li a:hover {
+        background: rgba(255,255,255,.2);
         color: #3366ff;
     }        
       .hero .the-message {
@@ -368,15 +368,15 @@
         display: block!important;
     }
     .topbar.the-header .menu.mobile li {
-        border-bottom: 1px solid #555;
-        margin-bottom: 10px;
-        padding-bottom: 10px;        
+        border-bottom: 1px solid #555;        
     }
     .topbar.the-header .menu.mobile li a {
         display: block;
+        padding: 10px 0;
         text-align: center;
     } 
     .topbar.the-header .menu.mobile li a:hover {
+        background: rgba(255,255,255,.2);
         color: #3366ff;
     }        
       .hero .the-message {
@@ -539,15 +539,15 @@
         display: block!important;
     }
     .topbar.the-header .menu.mobile li {
-        border-bottom: 1px solid #555;
-        margin-bottom: 10px;
-        padding-bottom: 10px;
+        border-bottom: 1px solid #555;        
     }
     .topbar.the-header .menu.mobile li a {
         display: block;
+        padding: 10px 0;
         text-align: center;
     } 
     .topbar.the-header .menu.mobile li a:hover {        
+        background: rgba(255,255,255,.2);
         color: #3366ff;
     }    
       .hero .content .inner-content .the-message {      
@@ -720,15 +720,15 @@
         display: block!important;
     }
     .topbar.the-header .menu.mobile li {
-        border-bottom: 1px solid #555;
-        margin-bottom: 10px;
-        padding-bottom: 10px;
+        border-bottom: 1px solid #555;        
     }
     .topbar.the-header .menu.mobile li a {
         display: block;
+        padding: 10px 0;
         text-align: center;
     } 
     .topbar.the-header .menu.mobile li a:hover {        
+        background: rgba(255,255,255,.2);
         color: #3366ff;
     }    
       .hero .content .inner-content .the-message {      
@@ -902,15 +902,15 @@
         display: block!important;
     }
     .topbar.the-header .menu.mobile li {
-        border-bottom: 1px solid #555;
-        margin-bottom: 10px;
-        padding-bottom: 10px;
+        border-bottom: 1px solid #555;        
     }
     .topbar.the-header .menu.mobile li a {
         display: block;
+        padding: 10px 0;
         text-align: center;
     } 
     .topbar.the-header .menu.mobile li a:hover {        
+        background: rgba(255,255,255,.2);
         color: #3366ff;
     }    
       .hero .content .inner-content .the-message {      
@@ -1079,15 +1079,15 @@
         display: block!important;
     }
     .topbar.the-header .menu.mobile li {
-        border-bottom: 1px solid #555;
-        margin-bottom: 10px;
-        padding-bottom: 10px;
+        border-bottom: 1px solid #555;        
     }
     .topbar.the-header .menu.mobile li a {
         display: block;
+        padding: 10px 0;
         text-align: center;
     } 
     .topbar.the-header .menu.mobile li a:hover {        
+        background: rgba(255,255,255,.2);
         color: #3366ff;
     }    
       .hero .content .inner-content .the-message {      
