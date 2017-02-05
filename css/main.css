@@ -153,6 +153,13 @@ main .courses a.viewallcourses:hover i.angle {
     -moz-transition: color 0.5s ease;
     transition: color 0.5s ease;
 }
+.courses .ui.blue.label {
+    background: #3366ff!important;
+}
+.courses .ui.blue.label:hover {
+    background: #4d79ff!important;
+    transition: background-color ease 0.5s;
+}
 .bottom-container {
     background: #e1e1e1;
     margin-top: 40px;
