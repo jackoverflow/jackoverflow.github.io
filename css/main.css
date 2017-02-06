@@ -169,6 +169,10 @@ h1.logo a {
     left: 5%;
     overflow: hidden;
 }
+.slide-image .the-message {    
+    float: left;
+    width: 80%;
+}
 .slide-image .content-message .intro {    
     font-family: 'Flama-Medium';
     font-size: 18px;    

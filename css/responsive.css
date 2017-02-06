@@ -9,7 +9,11 @@
     }
     .slide-image .content-message {   
         padding-bottom: 20px;
-    }    
+    }
+    .slide-image .the-message {
+        float: left;
+        width: 70%;
+    }        
   }
 
 /*ipad portrait*/
@@ -380,7 +384,7 @@
         border: none;
         padding-top: 70px;
     }    
-    .slide-image .content-message {   
+    .slide-image .content-message {           
         font-size: 14px;
         padding-bottom: 20px;
         padding-top: 10px;
@@ -392,6 +396,20 @@
     .slide-image .content-message .intro {   
         font-size: 14px;
     }     
+    .slide-image .content-message img {   
+        float: none;
+        display: block;
+        margin: 0 auto;
+        height: 150px;
+        width: 140px;
+    }
+    .slide-image .content-message .the-message {   
+        float: none;
+        margin: 20px auto 0 auto;
+    }
+    .slide-image {
+        height: 650px;
+    }
     .topbar.the-header .menu.mobile {
         display: block;
         list-style: none;
@@ -575,6 +593,12 @@
 
     .slide-image .content-message {
         top: 0;
+    }
+    .slide-image .the-message {
+        font-size: 14px;
+    }    
+    .slide-image .the-message .intro {
+        font-size: 16px;
     }
 }
 
@@ -962,6 +986,15 @@
         position: static; 
         padding-top: 10px;       
     }    
+    .slide-image .content-message img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    .slide-image .content-message .the-message {
+        float: none;
+        margin: 0 auto;
+    }
     .slide-image .content-message p {
         margin-bottom: 10px;
     }
@@ -972,6 +1005,9 @@
     .slide-image .content-message .intro {
         font-size: 14px;
     }        
+    .slide-image {
+        height: 720px;
+    }
     .topbar.the-header .menu.mobile {
         display: block;
         list-style: none;
@@ -1173,6 +1209,19 @@
         position: static; 
         padding-top: 20px;       
     }    
+    .slide-image .content-message img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    .slide-image .content-message .the-message {
+        float: none;
+        display: block;
+        margin: 0 auto 10px auto;
+    }    
+    .slide-image {
+        height: 570px
+    }
     .slide-image .content-message p {
         margin-bottom: 10px;
     }
@@ -1364,6 +1413,6 @@
   and (max-width: 480px) 
   and (orientation: landscape) {
     .slide-image {
-        height: 450px;
+        height: 580px;
     }
 }
