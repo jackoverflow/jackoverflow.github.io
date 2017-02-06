@@ -157,7 +157,7 @@ h1.logo a {
     background: #DD4C56;
 }
 .slide-image .content-message {    
-    background: rgba(0, 62, 120, .7)!important;
+    background: rgba(0, 62, 120, .1)!important;
     border-radius: 3px;
     color: #fff;
     min-height: 90%;
