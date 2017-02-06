@@ -7,13 +7,33 @@
     .right.menu a {
         font-size: 13px!important;
     }
+    .slide-image .content-message {   
+        padding-bottom: 20px;
+    }    
   }
 
+/*ipad portrait*/
 @media only screen 
   and (min-width: 768px) 
   and (max-width: 1024px) 
   and (orientation: portrait) 
-{          
+{     
+    .flexslider {
+        border: none;
+        padding-top: 70px;
+    }     
+    .slide-image .content-message {   
+        font-size: 16px;
+        padding-bottom: 20px;
+        top: 5px;
+    }      
+    .slide-image .content-message p {   
+        margin-bottom: 18px!important;
+    }
+    .slide-image .content-message .intro {   
+        font-size: 18px!important;
+        padding-top: 0;
+    }      
     .topbar.the-header .menu.mobile {
         display: block;
         list-style: none;
@@ -356,6 +376,22 @@
   and (max-width: 800px) 
   and (orientation: portrait) 
 {          
+    .flexslider {
+        border: none;
+        padding-top: 70px;
+    }    
+    .slide-image .content-message {   
+        font-size: 14px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        top: 5px;
+    } 
+    .slide-image .content-message p {   
+        margin-bottom: 5px;
+    }
+    .slide-image .content-message .intro {   
+        font-size: 14px;
+    }     
     .topbar.the-header .menu.mobile {
         display: block;
         list-style: none;
@@ -518,7 +554,28 @@
     .the-header.menu-opened .burger-container #burger .bar.btmBar {
         -webkit-transform: translateY(3px) rotate(-45deg);
                 transform: translateY(3px) rotate(-45deg);
-    }                 
+    }
+
+    .slide-image .content {
+        right: 60px;
+        width: 80%;
+    }                  
+}
+
+/*small ipad landscape*/
+@media only screen 
+  and (min-width: 600px) 
+  and (max-width: 800px) 
+  and (orientation: landscape) 
+{          
+    .flexslider {
+        border: none;
+        padding-top: 70px;
+    }
+
+    .slide-image .content-message {
+        top: 0;
+    }
 }
 
 /*samsumg galaxy view*/
@@ -890,6 +947,31 @@
   and (max-width: 568px) 
   and (orientation: portrait) 
 {
+    .flexslider {
+        padding-top: 70px;
+    }
+    .slide-image {
+        height: 580px;
+    }
+    .slide-image .content-message .intro {
+        font-size: 14px;
+    }
+    .slide-image .content-message {
+        font-size: 12px;
+        width: 100%;
+        position: static; 
+        padding-top: 10px;       
+    }    
+    .slide-image .content-message p {
+        margin-bottom: 10px;
+    }
+    .slide-image .content-message img {
+        width: 90px;
+        height: 100px;
+    }  
+    .slide-image .content-message .intro {
+        font-size: 14px;
+    }        
     .topbar.the-header .menu.mobile {
         display: block;
         list-style: none;
@@ -1059,14 +1141,48 @@
     .the-header.menu-opened .burger-container #burger .bar.btmBar {
         -webkit-transform: translateY(3px) rotate(-45deg);
                 transform: translateY(3px) rotate(-45deg);
-    }        
+    }
+    .slide-image .content {
+        font-size: 14px;
+        right: 35px;
+        width: 80%;
+    }               
+    .slide-image .content h2 {
+        font-size: 22px;
+    }
 }
 
+/*mobile view landscape*/
 @media only screen 
   and (min-width: 320px) 
   and (max-width: 568px) 
   and (orientation: landscape) 
 {
+    .flexslider {
+        padding-top: 70px;
+    }
+    .slide-image {
+        height: 380px;
+    }
+    .slide-image .content-message .intro {
+        font-size: 14px;
+    }
+    .slide-image .content-message {
+        font-size: 12px;
+        width: 100%;
+        position: static; 
+        padding-top: 20px;       
+    }    
+    .slide-image .content-message p {
+        margin-bottom: 10px;
+    }
+    .slide-image .content-message img {
+        width: 90px;
+        height: 100px;
+    }  
+    .slide-image .content-message .intro {
+        font-size: 14px;
+    }     
     .topbar.the-header .menu.mobile {
         display: block;
         list-style: none;
@@ -1243,3 +1359,11 @@
 }
 
 
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px) 
+  and (orientation: landscape) {
+    .slide-image {
+        height: 450px;
+    }
+}
