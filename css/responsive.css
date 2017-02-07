@@ -1416,3 +1416,43 @@
         height: 580px;
     }
 }
+
+/*22 inches monitors*/
+@media only screen 
+  and (min-width: 1680px)   
+  {
+    .slide-image {
+        height: 620px;
+    }
+    .slide-image .content-message {    
+        font-size: 18px;
+        padding: 70px 30px 0 30px;
+    }
+    .slide-image .content-message .intro {    
+        font-family: 'Flama-Medium';
+        font-size: 22px;    
+    }    
+
+  }
+
+/*24 inches monitor*/
+@media only screen 
+  and (min-width: 1680px)   
+  {
+    .slide-image {
+        height: 720px;
+    }
+    .slide-image .content-message {    
+        font-size: 22px;
+        padding: 70px 30px 0 30px;
+    }
+    .slide-image .content-message .intro {    
+        font-family: 'Flama-Medium';
+        font-size: 26px;    
+    }    
+    .slide-image .content {
+        font-size: 20px;
+        padding-top: 40px;
+    }
+
+  }
