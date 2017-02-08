@@ -1,1458 +1,1922 @@
 /*15 inches screens*/
-@media only screen 
-  and (min-width: 768px) 
-  and (max-width: 1094px) 
-  and (orientation: landscape) 
-  {
-    .right.menu a {
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1094px)
+  and (orientation: landscape)
+{
+    .right.menu a
+    {
         font-size: 13px!important;
     }
-    .slide-image .content-message {   
+    .slide-image .content-message
+    {
         padding-bottom: 20px;
     }
-    .slide-image .the-message {
+    .slide-image .the-message
+    {
         float: left;
-        width: 70%;
-    }        
-  }
 
-/*ipad portrait*/
-@media only screen 
-  and (min-width: 768px) 
-  and (max-width: 1024px) 
-  and (orientation: portrait) 
-{     
-    .flexslider {
-        border: none;
-        padding-top: 70px;
-    }     
-    .slide-image .content-message {   
-        font-size: 16px;
-        padding-bottom: 20px;
-        top: 5px;
-    }      
-    .slide-image .content-message p {   
-        margin-bottom: 18px!important;
+        width: 70%;
     }
-    .slide-image .content-message .intro {   
-        font-size: 18px!important;
-        padding-top: 0;
-    }      
-    .topbar.the-header .menu.mobile {
-        display: block;
-        list-style: none;
+    h1.logo
+    {
+        position: absolute;
+        top: -5px;
+        left: 0;
+
         margin: 0;
         padding: 0;
-        margin-top: 100px;        
-        width: 100%;
     }
-    .the-header  .menu.mobile {
-        display: block!important;
-    }
-    .topbar.the-header .menu.mobile li {
-        border-bottom: 1px solid #555;        
-    }
-    .topbar.the-header .menu.mobile li a {
+    h1.logo a
+    {
         display: block;
-        padding: 10px 0;
-        text-align: center;
-    } 
-    .topbar.the-header .menu.mobile li a:hover {
-        background: rgba(255,255,255,.2);
-        color: #3366ff;
-    }        
-      .hero .the-message {
-          width: 100%!important;
-      }
-      .hero .the-message,
-      .hero img {
-          float: none;
-          display: block;
-          margin: 0 auto;
-      }
-      main .courses h3 {
-          font-size: 18px;
-      }
-      .right.menu.main {
-          display: none!important;
-      }
 
-      .bottom-container .bottom h3 {
-          font-size: 20px!important;
-      }
-      .bottom-container h3 i {
-          font-size: 28px!important;
-          margin-left: 10px;
-      }   
-      footer ul {
-          position: absolute;
-          top: 15px;
-          right: 30px;
-      }
+        width: 308px;
+        height: 64px;
 
-    h1.logo a {
         background: url('../images/tesda_logo.png') no-repeat;
         background-size: contain;
-        display: block;
-        height: 54px;
-        width: 288px;
-    }      
+    }
+}
 
-    .hero {
+/*ipad portrait*/
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1024px)
+  and (orientation: portrait)
+{
+    .flexslider
+    {
+        padding-top: 70px;
+
+        border: none;
+    }
+    .slide-image .content-message
+    {
+        font-size: 16px;
+
+        top: 5px;
+
+        padding-bottom: 20px;
+    }
+    .slide-image .content-message p
+    {
+        margin-bottom: 18px!important;
+    }
+    .slide-image .content-message .intro
+    {
+        font-size: 18px!important;
+
+        padding-top: 0;
+    }
+    .topbar.the-header .menu.mobile
+    {
+        display: block;
+
+        width: 100%;
+        margin: 0;
+        margin-top: 100px;
+        padding: 0;
+
+        list-style: none;
+    }
+    .the-header  .menu.mobile
+    {
+        display: block!important;
+    }
+    .topbar.the-header .menu.mobile li
+    {
+        border-bottom: 1px solid #555;
+    }
+    .topbar.the-header .menu.mobile li a
+    {
+        display: block;
+
+        padding: 10px 0;
+
+        text-align: center;
+    }
+    .topbar.the-header .menu.mobile li a:hover
+    {
+        color: #36f;
+        background: rgba(255,255,255,.2);
+    }
+    .hero .the-message
+    {
+        width: 100%!important;
+    }
+    .hero .the-message,
+    .hero img
+    {
+        display: block;
+        float: none;
+
+        margin: 0 auto;
+    }
+    main .courses h3
+    {
+        font-size: 18px;
+    }
+    .right.menu.main
+    {
+        display: none!important;
+    }
+
+    .bottom-container .bottom h3
+    {
+        font-size: 20px!important;
+    }
+    .bottom-container h3 i
+    {
+        font-size: 28px!important;
+
+        margin-left: 10px;
+    }
+    footer ul
+    {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+    }
+
+    h1.logo a
+    {
+        display: block;
+
+        width: 288px;
+        height: 54px;
+
+        background: url('../images/tesda_logo.png') no-repeat;
+        background-size: contain;
+    }
+
+    .hero
+    {
         padding-top: 40px;
     }
 
-    .the-header {
+    .the-header
+    {
         position: absolute;
-        display: block;
+        z-index: 1;
         top: 0;
         left: 0;
-        margin-bottom: 30px;
-        height: 70px;
-        width: 100%;
-        background: rgba(0, 0, 0, 0.8);
+
+        display: block;
         overflow: hidden;
-        -webkit-transition: all 0.5s ease-out, background 1s ease-out;
-        transition: all 0.5s ease-out, background 1s ease-out;
-        -webkit-transition-delay: 0.2s;
-                transition-delay: 0.2s;
-        z-index: 1;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+
+        width: 100%;
+        height: 70px;
+        margin-bottom: 30px;
+
+        -webkit-transition: all .5s ease-out, background 1s ease-out;
+                transition: all .5s ease-out, background 1s ease-out;
+        -webkit-transition-delay: .2s;
+                transition-delay: .2s;
+
+        background: rgba(0, 0, 0, .8);
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .06);
     }
-    .topbar.the-header .menu.mobile {
+    .topbar.the-header .menu.mobile
+    {
         display: block;
     }
-    .the-header .burger-container {
+    .the-header .burger-container
+    {
         position: absolute;
-        right: 10px;
         top: 0;
-        margin-top: -10px;
+        right: 10px;
+
         display: inline-block;
-        height: 70px;
+
         width: 50px;
+        height: 70px;
+        margin-top: -10px;
+
         cursor: pointer;
-        -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
-        -webkit-transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
         -webkit-user-select: none;
-            -moz-user-select: none;
+           -moz-user-select: none;
             -ms-user-select: none;
                 user-select: none;
+        -webkit-transition: all .3s cubic-bezier(.4, .01, .165, .99);
+                transition: all .3s cubic-bezier(.4, .01, .165, .99);
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+
         -webkit-tap-highlight-color: transparent;
     }
-    .the-header .burger-container #burger {
+    .the-header .burger-container #burger
+    {
+        position: relative;
+        top: 50%;
+
+        display: block;
+
         width: 18px;
         height: 8px;
-        position: relative;
-        display: block;
         margin: -4px auto 0;
-        top: 50%;
     }
-    .the-header .burger-container #burger .bar {
+    .the-header .burger-container #burger .bar
+    {
+        position: relative;
+
+        display: block;
+
         width: 100%;
         height: 1px;
-        display: block;
-        position: relative;
-        background: #fff;
-        -webkit-transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+
+        -webkit-transition: all .3s cubic-bezier(.4, .01, .165, .99);
+                transition: all .3s cubic-bezier(.4, .01, .165, .99);
         -webkit-transition-delay: 0s;
                 transition-delay: 0s;
+
+        background: #fff;
     }
-    .the-header .burger-container #burger .bar.topBar {
+    .the-header .burger-container #burger .bar.topBar
+    {
         -webkit-transform: translateY(0px) rotate(0deg);
                 transform: translateY(0px) rotate(0deg);
     }
-    .the-header .burger-container #burger .bar.btmBar {
+    .the-header .burger-container #burger .bar.btmBar
+    {
         -webkit-transform: translateY(6px) rotate(0deg);
                 transform: translateY(6px) rotate(0deg);
     }
 
-    .the-header.menu {
-        list-style: none;        
+    .the-header.menu
+    {
         margin: 0!important;
+
+        list-style: none;
     }
-    
-    
-    .the-header.menu-opened {
+
+
+    .the-header.menu-opened
+    {
         height: 100%;
         /*background-color: #000;*/
-        -webkit-transition: all 0.3s ease-in, background 0.5s ease-in;
-        transition: all 0.3s ease-in, background 0.5s ease-in;
-        -webkit-transition-delay: 0.25s;
-                transition-delay: 0.25s;
+
+        -webkit-transition: all .3s ease-in, background .5s ease-in;
+                transition: all .3s ease-in, background .5s ease-in;
+        -webkit-transition-delay: .25s;
+                transition-delay: .25s;
     }
-    .the-header.menu-opened .burger-container {
+    .the-header.menu-opened .burger-container
+    {
         -webkit-transform: rotate(90deg);
                 transform: rotate(90deg);
     }
-    .the-header.menu-opened .burger-container #burger .bar {
-        -webkit-transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        -webkit-transition-delay: 0.2s;
-                transition-delay: 0.2s;
+    .the-header.menu-opened .burger-container #burger .bar
+    {
+        -webkit-transition: all .4s cubic-bezier(.4, .01, .165, .99);
+                transition: all .4s cubic-bezier(.4, .01, .165, .99);
+        -webkit-transition-delay: .2s;
+                transition-delay: .2s;
     }
-    .the-header.menu-opened .burger-container #burger .bar.topBar {
+    .the-header.menu-opened .burger-container #burger .bar.topBar
+    {
         -webkit-transform: translateY(4px) rotate(45deg);
                 transform: translateY(4px) rotate(45deg);
     }
-    .the-header.menu-opened .burger-container #burger .bar.btmBar {
+    .the-header.menu-opened .burger-container #burger .bar.btmBar
+    {
         -webkit-transform: translateY(3px) rotate(-45deg);
                 transform: translateY(3px) rotate(-45deg);
-    }                 
+    }
 }
 
 /*ipad landscape*/
-@media only screen 
-  and (min-width: 768px) 
-  and (max-width: 995px) 
-  and (orientation: landscape) 
-{          
-    .topbar.the-header .menu.mobile {
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 995px)
+  and (orientation: landscape)
+{
+    .topbar.the-header .menu.mobile
+    {
         display: block;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        margin-top: 100px;        
+
         width: 100%;
+        margin: 0;
+        margin-top: 100px;
+        padding: 0;
+
+        list-style: none;
     }
-    .the-header  .menu.mobile {
+    .the-header  .menu.mobile
+    {
         display: block!important;
     }
-    .topbar.the-header .menu.mobile li {
-        border-bottom: 1px solid #555;        
+    .topbar.the-header .menu.mobile li
+    {
+        border-bottom: 1px solid #555;
     }
-    .topbar.the-header .menu.mobile li a {
+    .topbar.the-header .menu.mobile li a
+    {
         display: block;
+
         padding: 10px 0;
+
         text-align: center;
-    } 
-    .topbar.the-header .menu.mobile li a:hover {
+    }
+    .topbar.the-header .menu.mobile li a:hover
+    {
+        color: #36f;
         background: rgba(255,255,255,.2);
-        color: #3366ff;
-    }        
-      .hero .the-message {
-          width: 100%!important;
-      }
-      .hero .the-message,
-      .hero img {
-          float: none;
-          display: block;
-          margin: 0 auto;
-      }
-      main .courses h3 {
-          font-size: 18px;
-      }
-      .right.menu.main {
-          display: none!important;
-      }
+    }
+    .hero .the-message
+    {
+        width: 100%!important;
+    }
+    .hero .the-message,
+    .hero img
+    {
+        display: block;
+        float: none;
 
-      .bottom-container .bottom h3 {
-          font-size: 20px!important;
-      }
-      .bottom-container h3 i {
-          font-size: 28px!important;
-          margin-left: 10px;
-      }   
-      footer ul {
-          position: absolute;
-          top: 0;
-          right: 30px;
-      }
+        margin: 0 auto;
+    }
+    main .courses h3
+    {
+        font-size: 18px;
+    }
+    .right.menu.main
+    {
+        display: none!important;
+    }
 
-    h1.logo a {
+    .bottom-container .bottom h3
+    {
+        font-size: 20px!important;
+    }
+    .bottom-container h3 i
+    {
+        font-size: 28px!important;
+
+        margin-left: 10px;
+    }
+    footer ul
+    {
+        position: absolute;
+        top: 0;
+        right: 30px;
+    }
+
+    h1.logo a
+    {
+        display: block;
+
+        width: 288px;
+        height: 54px;
+
         background: url('../images/tesda_logo.png') no-repeat;
         background-size: contain;
-        display: block;
-        height: 54px;
-        width: 288px;
-    }      
+    }
 
-    .hero {
+    .hero
+    {
         padding-top: 40px;
     }
 
-    .the-header {
+    .the-header
+    {
         position: absolute;
-        display: block;
+        z-index: 1;
         top: 0;
         left: 0;
-        margin-bottom: 30px;
-        height: 70px;
-        width: 100%;
-        background: rgba(0, 0, 0, 0.8);
+
+        display: block;
         overflow: hidden;
-        -webkit-transition: all 0.5s ease-out, background 1s ease-out;
-        transition: all 0.5s ease-out, background 1s ease-out;
-        -webkit-transition-delay: 0.2s;
-                transition-delay: 0.2s;
-        z-index: 1;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+
+        width: 100%;
+        height: 70px;
+        margin-bottom: 30px;
+
+        -webkit-transition: all .5s ease-out, background 1s ease-out;
+                transition: all .5s ease-out, background 1s ease-out;
+        -webkit-transition-delay: .2s;
+                transition-delay: .2s;
+
+        background: rgba(0, 0, 0, .8);
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .06);
     }
-    .topbar.the-header .menu.mobile {
+    .topbar.the-header .menu.mobile
+    {
         display: block;
     }
-    .the-header .burger-container {
+    .the-header .burger-container
+    {
         position: absolute;
-        right: 10px;
         top: 0;
-        margin-top: -10px;
+        right: 10px;
+
         display: inline-block;
-        height: 70px;
+
         width: 50px;
+        height: 70px;
+        margin-top: -10px;
+
         cursor: pointer;
-        -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
-        -webkit-transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
         -webkit-user-select: none;
-            -moz-user-select: none;
+           -moz-user-select: none;
             -ms-user-select: none;
                 user-select: none;
+        -webkit-transition: all .3s cubic-bezier(.4, .01, .165, .99);
+                transition: all .3s cubic-bezier(.4, .01, .165, .99);
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+
         -webkit-tap-highlight-color: transparent;
     }
-    .the-header .burger-container #burger {
+    .the-header .burger-container #burger
+    {
+        position: relative;
+        top: 45%;
+
+        display: block;
+
         width: 18px;
         height: 8px;
-        position: relative;
-        display: block;
         margin: -4px auto 0;
-        top: 45%;
     }
-    .the-header .burger-container #burger .bar {
+    .the-header .burger-container #burger .bar
+    {
+        position: relative;
+
+        display: block;
+
         width: 100%;
         height: 1px;
-        display: block;
-        position: relative;
-        background: #fff;
-        -webkit-transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+
+        -webkit-transition: all .3s cubic-bezier(.4, .01, .165, .99);
+                transition: all .3s cubic-bezier(.4, .01, .165, .99);
         -webkit-transition-delay: 0s;
                 transition-delay: 0s;
+
+        background: #fff;
     }
-    .the-header .burger-container #burger .bar.topBar {
+    .the-header .burger-container #burger .bar.topBar
+    {
         -webkit-transform: translateY(0px) rotate(0deg);
                 transform: translateY(0px) rotate(0deg);
     }
-    .the-header .burger-container #burger .bar.btmBar {
+    .the-header .burger-container #burger .bar.btmBar
+    {
         -webkit-transform: translateY(6px) rotate(0deg);
                 transform: translateY(6px) rotate(0deg);
     }
 
-    .the-header.menu {
-        list-style: none;        
+    .the-header.menu
+    {
         margin: 0!important;
+
+        list-style: none;
     }
-    
-    
-    .the-header.menu-opened {
+
+
+    .the-header.menu-opened
+    {
         height: 100%;
         /*background-color: #000;*/
-        -webkit-transition: all 0.3s ease-in, background 0.5s ease-in;
-        transition: all 0.3s ease-in, background 0.5s ease-in;
-        -webkit-transition-delay: 0.25s;
-                transition-delay: 0.25s;
+
+        -webkit-transition: all .3s ease-in, background .5s ease-in;
+                transition: all .3s ease-in, background .5s ease-in;
+        -webkit-transition-delay: .25s;
+                transition-delay: .25s;
     }
-    .the-header.menu-opened .burger-container {
+    .the-header.menu-opened .burger-container
+    {
         -webkit-transform: rotate(90deg);
                 transform: rotate(90deg);
     }
-    .the-header.menu-opened .burger-container #burger .bar {
-        -webkit-transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        -webkit-transition-delay: 0.2s;
-                transition-delay: 0.2s;
+    .the-header.menu-opened .burger-container #burger .bar
+    {
+        -webkit-transition: all .4s cubic-bezier(.4, .01, .165, .99);
+                transition: all .4s cubic-bezier(.4, .01, .165, .99);
+        -webkit-transition-delay: .2s;
+                transition-delay: .2s;
     }
-    .the-header.menu-opened .burger-container #burger .bar.topBar {
+    .the-header.menu-opened .burger-container #burger .bar.topBar
+    {
         -webkit-transform: translateY(4px) rotate(45deg);
                 transform: translateY(4px) rotate(45deg);
     }
-    .the-header.menu-opened .burger-container #burger .bar.btmBar {
+    .the-header.menu-opened .burger-container #burger .bar.btmBar
+    {
         -webkit-transform: translateY(3px) rotate(-45deg);
                 transform: translateY(3px) rotate(-45deg);
-    }                 
+    }
 }
 
 /*small ipad*/
-@media only screen 
-  and (min-width: 600px) 
-  and (max-width: 800px) 
-  and (orientation: portrait) 
-{          
-    .flexslider {
-        border: none;
+@media only screen
+  and (min-width: 600px)
+  and (max-width: 800px)
+  and (orientation: portrait)
+{
+    .flexslider
+    {
         padding-top: 70px;
-    }    
-    .slide-image .content-message {           
+
+        border: none;
+    }
+    .slide-image .content-message
+    {
         font-size: 14px;
-        padding-bottom: 20px;
-        padding-top: 10px;
+
         top: 5px;
-    } 
-    .slide-image .content-message p {   
+
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .slide-image .content-message p
+    {
         margin-bottom: 5px;
     }
-    .slide-image .content-message .intro {   
+    .slide-image .content-message .intro
+    {
         font-size: 14px;
-    }     
-    .slide-image .content-message img {   
-        float: none;
-        display: block;
-        margin: 0 auto;
-        height: 150px;
-        width: 140px;
     }
-    .slide-image .content-message .the-message {   
+    .slide-image .content-message img
+    {
+        display: block;
         float: none;
+
+        width: 140px;
+        height: 150px;
+        margin: 0 auto;
+    }
+    .slide-image .content-message .the-message
+    {
+        float: none;
+
         margin: 20px auto 0 auto;
     }
-    .slide-image {
+    .slide-image
+    {
         height: 650px;
     }
-    .topbar.the-header .menu.mobile {
+    .topbar.the-header .menu.mobile
+    {
         display: block;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        margin-top: 100px;        
+
         width: 100%;
+        margin: 0;
+        margin-top: 100px;
+        padding: 0;
+
+        list-style: none;
     }
-    .the-header  .menu.mobile {
+    .the-header  .menu.mobile
+    {
         display: block!important;
     }
-    .topbar.the-header .menu.mobile li {
-        border-bottom: 1px solid #555;        
+    .topbar.the-header .menu.mobile li
+    {
+        border-bottom: 1px solid #555;
     }
-    .topbar.the-header .menu.mobile li a {
+    .topbar.the-header .menu.mobile li a
+    {
         display: block;
+
         padding: 10px 0;
+
         text-align: center;
-    } 
-    .topbar.the-header .menu.mobile li a:hover {
+    }
+    .topbar.the-header .menu.mobile li a:hover
+    {
+        color: #36f;
         background: rgba(255,255,255,.2);
-        color: #3366ff;
-    }        
-      .hero .the-message {
-          width: 100%!important;
-      }
-      .hero .the-message,
-      .hero img {
-          float: none;
-          display: block;
-          margin: 0 auto;
-      }
-      main .courses h3 {
-          font-size: 18px;
-      }
-      .right.menu.main {
-          display: none!important;
-      }
+    }
+    .hero .the-message
+    {
+        width: 100%!important;
+    }
+    .hero .the-message,
+    .hero img
+    {
+        display: block;
+        float: none;
 
-      .bottom-container .bottom h3 {
-          font-size: 20px!important;
-      }
-      .bottom-container h3 i {
-          font-size: 28px!important;
-          margin-left: 10px;
-      }   
-      footer ul {
-          position: absolute;
-          top: 15px;
-          right: 30px;
-      }
+        margin: 0 auto;
+    }
+    main .courses h3
+    {
+        font-size: 18px;
+    }
+    .right.menu.main
+    {
+        display: none!important;
+    }
 
-    h1.logo a {
+    .bottom-container .bottom h3
+    {
+        font-size: 20px!important;
+    }
+    .bottom-container h3 i
+    {
+        font-size: 28px!important;
+
+        margin-left: 10px;
+    }
+    footer ul
+    {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+    }
+
+    h1.logo a
+    {
+        display: block;
+
+        width: 288px;
+        height: 54px;
+
         background: url('../images/tesda_logo.png') no-repeat;
         background-size: contain;
-        display: block;
-        height: 54px;
-        width: 288px;
-    }      
+    }
 
-    .hero {
+    .hero
+    {
         padding-top: 40px;
     }
 
-    .the-header {
+    .the-header
+    {
         position: absolute;
-        display: block;
+        z-index: 1;
         top: 0;
         left: 0;
-        margin-bottom: 30px;
-        height: 70px;
-        width: 100%;
-        background: rgba(0, 0, 0, 0.8);
+
+        display: block;
         overflow: hidden;
-        -webkit-transition: all 0.5s ease-out, background 1s ease-out;
-        transition: all 0.5s ease-out, background 1s ease-out;
-        -webkit-transition-delay: 0.2s;
-                transition-delay: 0.2s;
-        z-index: 1;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+
+        width: 100%;
+        height: 70px;
+        margin-bottom: 30px;
+
+        -webkit-transition: all .5s ease-out, background 1s ease-out;
+                transition: all .5s ease-out, background 1s ease-out;
+        -webkit-transition-delay: .2s;
+                transition-delay: .2s;
+
+        background: rgba(0, 0, 0, .8);
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .06);
     }
-    .topbar.the-header .menu.mobile {
+    .topbar.the-header .menu.mobile
+    {
         display: block;
     }
-    .the-header .burger-container {
+    .the-header .burger-container
+    {
         position: absolute;
-        right: 10px;
         top: -5px;
-        margin-top: -10px;
+        right: 10px;
+
         display: inline-block;
-        height: 70px;
+
         width: 50px;
+        height: 70px;
+        margin-top: -10px;
+
         cursor: pointer;
-        -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
-        -webkit-transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
         -webkit-user-select: none;
-            -moz-user-select: none;
+           -moz-user-select: none;
             -ms-user-select: none;
                 user-select: none;
+        -webkit-transition: all .3s cubic-bezier(.4, .01, .165, .99);
+                transition: all .3s cubic-bezier(.4, .01, .165, .99);
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+
         -webkit-tap-highlight-color: transparent;
     }
-    .the-header .burger-container #burger {
+    .the-header .burger-container #burger
+    {
+        position: relative;
+        top: 50%;
+
+        display: block;
+
         width: 18px;
         height: 8px;
-        position: relative;
-        display: block;
         margin: -4px auto 0;
-        top: 50%;
     }
-    .the-header .burger-container #burger .bar {
+    .the-header .burger-container #burger .bar
+    {
+        position: relative;
+
+        display: block;
+
         width: 100%;
         height: 1px;
-        display: block;
-        position: relative;
-        background: #fff;
-        -webkit-transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+
+        -webkit-transition: all .3s cubic-bezier(.4, .01, .165, .99);
+                transition: all .3s cubic-bezier(.4, .01, .165, .99);
         -webkit-transition-delay: 0s;
                 transition-delay: 0s;
+
+        background: #fff;
     }
-    .the-header .burger-container #burger .bar.topBar {
+    .the-header .burger-container #burger .bar.topBar
+    {
         -webkit-transform: translateY(0px) rotate(0deg);
                 transform: translateY(0px) rotate(0deg);
     }
-    .the-header .burger-container #burger .bar.btmBar {
+    .the-header .burger-container #burger .bar.btmBar
+    {
         -webkit-transform: translateY(6px) rotate(0deg);
                 transform: translateY(6px) rotate(0deg);
     }
 
-    .the-header.menu {
-        list-style: none;        
+    .the-header.menu
+    {
         margin: 0!important;
+
+        list-style: none;
     }
-    
-    
-    .the-header.menu-opened {
+
+
+    .the-header.menu-opened
+    {
         height: 100%;
         /*background-color: #000;*/
-        -webkit-transition: all 0.3s ease-in, background 0.5s ease-in;
-        transition: all 0.3s ease-in, background 0.5s ease-in;
-        -webkit-transition-delay: 0.25s;
-                transition-delay: 0.25s;
+
+        -webkit-transition: all .3s ease-in, background .5s ease-in;
+                transition: all .3s ease-in, background .5s ease-in;
+        -webkit-transition-delay: .25s;
+                transition-delay: .25s;
     }
-    .the-header.menu-opened .burger-container {
+    .the-header.menu-opened .burger-container
+    {
         -webkit-transform: rotate(90deg);
                 transform: rotate(90deg);
     }
-    .the-header.menu-opened .burger-container #burger .bar {
-        -webkit-transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        -webkit-transition-delay: 0.2s;
-                transition-delay: 0.2s;
+    .the-header.menu-opened .burger-container #burger .bar
+    {
+        -webkit-transition: all .4s cubic-bezier(.4, .01, .165, .99);
+                transition: all .4s cubic-bezier(.4, .01, .165, .99);
+        -webkit-transition-delay: .2s;
+                transition-delay: .2s;
     }
-    .the-header.menu-opened .burger-container #burger .bar.topBar {
+    .the-header.menu-opened .burger-container #burger .bar.topBar
+    {
         -webkit-transform: translateY(4px) rotate(45deg);
                 transform: translateY(4px) rotate(45deg);
     }
-    .the-header.menu-opened .burger-container #burger .bar.btmBar {
+    .the-header.menu-opened .burger-container #burger .bar.btmBar
+    {
         -webkit-transform: translateY(3px) rotate(-45deg);
                 transform: translateY(3px) rotate(-45deg);
     }
 
-    .slide-image .content {
+    .slide-image .content
+    {
         right: 60px;
+
         width: 80%;
-    }                  
+    }
 }
 
 /*small ipad landscape*/
-@media only screen 
-  and (min-width: 600px) 
-  and (max-width: 800px) 
-  and (orientation: landscape) 
-{          
-    .flexslider {
-        border: none;
+@media only screen
+  and (min-width: 600px)
+  and (max-width: 800px)
+  and (orientation: landscape)
+{
+    .flexslider
+    {
         padding-top: 70px;
+
+        border: none;
     }
 
-    .slide-image .content-message {
+    .slide-image .content-message
+    {
         top: 0;
     }
-    .slide-image .the-message {
+    .slide-image .the-message
+    {
         font-size: 14px;
-    }    
-    .slide-image .the-message .intro {
+    }
+    .slide-image .the-message .intro
+    {
         font-size: 16px;
     }
 }
 
 /*samsumg galaxy view*/
-@media only screen 
-  and (min-width: 480px) 
-  and (max-width: 800px) 
-  and (orientation: portrait) 
+@media only screen
+  and (min-width: 480px)
+  and (max-width: 800px)
+  and (orientation: portrait)
 {
-    .topbar.the-header .menu.mobile {
+    .topbar.the-header .menu.mobile
+    {
         display: block;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        margin-top: 100px;        
+
         width: 100%;
+        margin: 0;
+        margin-top: 100px;
+        padding: 0;
+
+        list-style: none;
     }
-    .the-header  .menu.mobile {
+    .the-header  .menu.mobile
+    {
         display: block!important;
     }
-    .topbar.the-header .menu.mobile li {
-        border-bottom: 1px solid #555;        
+    .topbar.the-header .menu.mobile li
+    {
+        border-bottom: 1px solid #555;
     }
-    .topbar.the-header .menu.mobile li a {
+    .topbar.the-header .menu.mobile li a
+    {
         display: block;
+
         padding: 10px 0;
+
         text-align: center;
-    } 
-    .topbar.the-header .menu.mobile li a:hover {        
+    }
+    .topbar.the-header .menu.mobile li a:hover
+    {
+        color: #36f;
         background: rgba(255,255,255,.2);
-        color: #3366ff;
-    }    
-      .hero .content .inner-content .the-message {      
-          width: 100%!important;
-      }    
-        h1.logo {
-            margin: 0;
-            padding: 0;
-            position: absolute;    
-            top: 0;
-            left: 0;
-        }
-        h1.logo a {
-            background: url('../images/tesda_logo.png') no-repeat;
-            background-size: contain;
-            display: block;
-            height: 44px;
-            width: 278px;
-        }
+    }
+    .hero .content .inner-content .the-message
+    {
+        width: 100%!important;
+    }
+    h1.logo
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
 
-      .hero .the-message,
-      .hero img {
-          float: none;
-          display: block;
-          margin: 0 auto;
-      }      
-      .bottom-container h3 i {
-          font-size: 28px!important;
-          margin-left: 10px;
-      }
-      .right.menu.main {
-          display: none!important;
-      }  
-      footer {
-          height: 105px;
-      }       
-      footer .content {          
-          height: 80px;
-      }      
-      footer .content p {
-          display: block;
-          text-align: center;
-          width: 100%;
-      }
-      footer ul {
-          position: absolute;
-          top: 50px;
-          left: 30px;
-      }   
+        margin: 0;
+        padding: 0;
+    }
+    h1.logo a
+    {
+        display: block;
 
-    .hero {
+        width: 278px;
+        height: 44px;
+
+        background: url('../images/tesda_logo.png') no-repeat;
+        background-size: contain;
+    }
+
+    .hero .the-message,
+    .hero img
+    {
+        display: block;
+        float: none;
+
+        margin: 0 auto;
+    }
+    .bottom-container h3 i
+    {
+        font-size: 28px!important;
+
+        margin-left: 10px;
+    }
+    .right.menu.main
+    {
+        display: none!important;
+    }
+    footer
+    {
+        height: 105px;
+    }
+    footer .content
+    {
+        height: 80px;
+    }
+    footer .content p
+    {
+        display: block;
+
+        width: 100%;
+
+        text-align: center;
+    }
+    footer ul
+    {
+        position: absolute;
+        top: 50px;
+        left: 30px;
+    }
+
+    .hero
+    {
         padding-top: 40px;
     }
 
-    .the-header {
+    .the-header
+    {
         position: absolute;
-        display: block;
+        z-index: 1;
         top: 0;
         left: 0;
-        margin-bottom: 30px;
-        height: 70px;
-        width: 100%;
-        background: rgba(0, 0, 0, 0.8);
+
+        display: block;
         overflow: hidden;
-        -webkit-transition: all 0.5s ease-out, background 1s ease-out;
-        transition: all 0.5s ease-out, background 1s ease-out;
-        -webkit-transition-delay: 0.2s;
-                transition-delay: 0.2s;
-        z-index: 1;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
-    }
-    .the-header .burger-container {
-        position: absolute;
-        right: 10px;
-        top: 0;
-        margin-top: -10px;
-        display: inline-block;
+
+        width: 100%;
         height: 70px;
+        margin-bottom: 30px;
+
+        -webkit-transition: all .5s ease-out, background 1s ease-out;
+                transition: all .5s ease-out, background 1s ease-out;
+        -webkit-transition-delay: .2s;
+                transition-delay: .2s;
+
+        background: rgba(0, 0, 0, .8);
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .06);
+    }
+    .the-header .burger-container
+    {
+        position: absolute;
+        top: 0;
+        right: 10px;
+
+        display: inline-block;
+
         width: 50px;
+        height: 70px;
+        margin-top: -10px;
+
         cursor: pointer;
-        -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
-        -webkit-transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
         -webkit-user-select: none;
-            -moz-user-select: none;
+           -moz-user-select: none;
             -ms-user-select: none;
                 user-select: none;
+        -webkit-transition: all .3s cubic-bezier(.4, .01, .165, .99);
+                transition: all .3s cubic-bezier(.4, .01, .165, .99);
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+
         -webkit-tap-highlight-color: transparent;
     }
-    .the-header .burger-container #burger {
+    .the-header .burger-container #burger
+    {
+        position: relative;
+        top: 45%;
+
+        display: block;
+
         width: 18px;
         height: 8px;
-        position: relative;
-        display: block;
         margin: -4px auto 0;
-        top: 45%;
     }
-    .the-header .burger-container #burger .bar {
+    .the-header .burger-container #burger .bar
+    {
+        position: relative;
+
+        display: block;
+
         width: 100%;
         height: 1px;
-        display: block;
-        position: relative;
-        background: #fff;
-        -webkit-transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+
+        -webkit-transition: all .3s cubic-bezier(.4, .01, .165, .99);
+                transition: all .3s cubic-bezier(.4, .01, .165, .99);
         -webkit-transition-delay: 0s;
                 transition-delay: 0s;
+
+        background: #fff;
     }
-    .the-header .burger-container #burger .bar.topBar {
+    .the-header .burger-container #burger .bar.topBar
+    {
         -webkit-transform: translateY(0px) rotate(0deg);
                 transform: translateY(0px) rotate(0deg);
     }
-    .the-header .burger-container #burger .bar.btmBar {
+    .the-header .burger-container #burger .bar.btmBar
+    {
         -webkit-transform: translateY(6px) rotate(0deg);
                 transform: translateY(6px) rotate(0deg);
     }
 
-    .the-header.menu {
+    .the-header.menu
+    {
         margin: 0!important;
     }
-    
-    
-    .the-header.menu-opened {
+
+
+    .the-header.menu-opened
+    {
         height: 100%;
         /*background-color: #000;*/
-        -webkit-transition: all 0.3s ease-in, background 0.5s ease-in;
-        transition: all 0.3s ease-in, background 0.5s ease-in;
-        -webkit-transition-delay: 0.25s;
-                transition-delay: 0.25s;
+
+        -webkit-transition: all .3s ease-in, background .5s ease-in;
+                transition: all .3s ease-in, background .5s ease-in;
+        -webkit-transition-delay: .25s;
+                transition-delay: .25s;
     }
-    .the-header.menu-opened .burger-container {
+    .the-header.menu-opened .burger-container
+    {
         -webkit-transform: rotate(90deg);
                 transform: rotate(90deg);
     }
-    .the-header.menu-opened .burger-container #burger .bar {
-        -webkit-transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        -webkit-transition-delay: 0.2s;
-                transition-delay: 0.2s;
+    .the-header.menu-opened .burger-container #burger .bar
+    {
+        -webkit-transition: all .4s cubic-bezier(.4, .01, .165, .99);
+                transition: all .4s cubic-bezier(.4, .01, .165, .99);
+        -webkit-transition-delay: .2s;
+                transition-delay: .2s;
     }
-    .the-header.menu-opened .burger-container #burger .bar.topBar {
+    .the-header.menu-opened .burger-container #burger .bar.topBar
+    {
         -webkit-transform: translateY(4px) rotate(45deg);
                 transform: translateY(4px) rotate(45deg);
     }
-    .the-header.menu-opened .burger-container #burger .bar.btmBar {
+    .the-header.menu-opened .burger-container #burger .bar.btmBar
+    {
         -webkit-transform: translateY(3px) rotate(-45deg);
                 transform: translateY(3px) rotate(-45deg);
-    } 
-    footer .menu ul {
+    }
+    footer .menu ul
+    {
         text-align: center;
-    }       
+    }
 }
 
 /*samsung galaxy landscape view*/
-@media only screen 
-  and (min-width: 480px) 
-  and (max-width: 800px) 
-  and (orientation: landscape) 
+@media only screen
+  and (min-width: 480px)
+  and (max-width: 800px)
+  and (orientation: landscape)
 {
-    .topbar.the-header .menu.mobile {
+    .topbar.the-header .menu.mobile
+    {
         display: block;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        margin-top: 100px;        
+
         width: 100%;
+        margin: 0;
+        margin-top: 100px;
+        padding: 0;
+
+        list-style: none;
     }
-    .the-header  .menu.mobile {
+    .the-header  .menu.mobile
+    {
         display: block!important;
     }
-    .topbar.the-header .menu.mobile li {
-        border-bottom: 1px solid #555;        
+    .topbar.the-header .menu.mobile li
+    {
+        border-bottom: 1px solid #555;
     }
-    .topbar.the-header .menu.mobile li a {
+    .topbar.the-header .menu.mobile li a
+    {
         display: block;
+
         padding: 10px 0;
+
         text-align: center;
-    } 
-    .topbar.the-header .menu.mobile li a:hover {        
+    }
+    .topbar.the-header .menu.mobile li a:hover
+    {
+        color: #36f;
         background: rgba(255,255,255,.2);
-        color: #3366ff;
-    }    
-      .hero .content .inner-content .the-message {      
-          width: 100%!important;
-      }    
-        h1.logo {
-            margin: 0;
-            padding: 0;
-            position: absolute;    
-            top: 0;
-            left: 0;
-        }
-        h1.logo a {
-            background: url('../images/tesda_logo.png') no-repeat;
-            background-size: contain;
-            display: block;
-            height: 44px;
-            width: 278px;
-        }
+    }
+    .hero .content .inner-content .the-message
+    {
+        width: 100%!important;
+    }
+    h1.logo
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
 
-      .hero .the-message,
-      .hero img {
-          float: none;
-          display: block;
-          margin: 0 auto;
-      }      
-      .bottom-container h3 i {
-          font-size: 28px!important;
-          margin-left: 10px;
-      }
-      .right.menu.main {
-          display: none!important;
-      }  
-      footer {
-          height: 105px;
-      }       
-      footer .content {
-          height: 80px;
-      }
-      footer .content p {
-          display: block;
-          text-align: center;
-          width: 100%;
-      }
-      footer ul {
-          position: absolute;
-          top: 50px;
-          left: 30px;
-      }   
+        margin: 0;
+        padding: 0;
+    }
+    h1.logo a
+    {
+        display: block;
 
-    .hero {
+        width: 278px;
+        height: 44px;
+
+        background: url('../images/tesda_logo.png') no-repeat;
+        background-size: contain;
+    }
+
+    .hero .the-message,
+    .hero img
+    {
+        display: block;
+        float: none;
+
+        margin: 0 auto;
+    }
+    .bottom-container h3 i
+    {
+        font-size: 28px!important;
+
+        margin-left: 10px;
+    }
+    .right.menu.main
+    {
+        display: none!important;
+    }
+    footer
+    {
+        height: 105px;
+    }
+    footer .content
+    {
+        height: 80px;
+    }
+    footer .content p
+    {
+        display: block;
+
+        width: 100%;
+
+        text-align: center;
+    }
+    footer ul
+    {
+        position: absolute;
+        top: 50px;
+        left: 30px;
+    }
+
+    .hero
+    {
         padding-top: 40px;
     }
 
-    .the-header {
+    .the-header
+    {
         position: absolute;
-        display: block;
+        z-index: 1;
         top: 0;
         left: 0;
-        margin-bottom: 30px;
-        height: 70px;
-        width: 100%;
-        background: rgba(0, 0, 0, 0.8);
+
+        display: block;
         overflow: hidden;
-        -webkit-transition: all 0.5s ease-out, background 1s ease-out;
-        transition: all 0.5s ease-out, background 1s ease-out;
-        -webkit-transition-delay: 0.2s;
-                transition-delay: 0.2s;
-        z-index: 1;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
-    }
-    .the-header .burger-container {
-        position: absolute;
-        right: 10px;
-        top: 0;
-        margin-top: -10px;
-        display: inline-block;
+
+        width: 100%;
         height: 70px;
+        margin-bottom: 30px;
+
+        -webkit-transition: all .5s ease-out, background 1s ease-out;
+                transition: all .5s ease-out, background 1s ease-out;
+        -webkit-transition-delay: .2s;
+                transition-delay: .2s;
+
+        background: rgba(0, 0, 0, .8);
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .06);
+    }
+    .the-header .burger-container
+    {
+        position: absolute;
+        top: 0;
+        right: 10px;
+
+        display: inline-block;
+
         width: 50px;
+        height: 70px;
+        margin-top: -10px;
+
         cursor: pointer;
-        -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
-        -webkit-transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
         -webkit-user-select: none;
-            -moz-user-select: none;
+           -moz-user-select: none;
             -ms-user-select: none;
                 user-select: none;
+        -webkit-transition: all .3s cubic-bezier(.4, .01, .165, .99);
+                transition: all .3s cubic-bezier(.4, .01, .165, .99);
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+
         -webkit-tap-highlight-color: transparent;
     }
-    .the-header .burger-container #burger {
+    .the-header .burger-container #burger
+    {
+        position: relative;
+        top: 45%;
+
+        display: block;
+
         width: 18px;
         height: 8px;
-        position: relative;
-        display: block;
         margin: -4px auto 0;
-        top: 45%;
     }
-    .the-header .burger-container #burger .bar {
+    .the-header .burger-container #burger .bar
+    {
+        position: relative;
+
+        display: block;
+
         width: 100%;
         height: 1px;
-        display: block;
-        position: relative;
-        background: #fff;
-        -webkit-transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+
+        -webkit-transition: all .3s cubic-bezier(.4, .01, .165, .99);
+                transition: all .3s cubic-bezier(.4, .01, .165, .99);
         -webkit-transition-delay: 0s;
                 transition-delay: 0s;
+
+        background: #fff;
     }
-    .the-header .burger-container #burger .bar.topBar {
+    .the-header .burger-container #burger .bar.topBar
+    {
         -webkit-transform: translateY(0px) rotate(0deg);
                 transform: translateY(0px) rotate(0deg);
     }
-    .the-header .burger-container #burger .bar.btmBar {
+    .the-header .burger-container #burger .bar.btmBar
+    {
         -webkit-transform: translateY(6px) rotate(0deg);
                 transform: translateY(6px) rotate(0deg);
     }
 
-    .the-header.menu {
+    .the-header.menu
+    {
         margin: 0!important;
     }
-    
-    
-    .the-header.menu-opened {
+
+
+    .the-header.menu-opened
+    {
         height: 100%;
         /*background-color: #000;*/
-        -webkit-transition: all 0.3s ease-in, background 0.5s ease-in;
-        transition: all 0.3s ease-in, background 0.5s ease-in;
-        -webkit-transition-delay: 0.25s;
-                transition-delay: 0.25s;
+
+        -webkit-transition: all .3s ease-in, background .5s ease-in;
+                transition: all .3s ease-in, background .5s ease-in;
+        -webkit-transition-delay: .25s;
+                transition-delay: .25s;
     }
-    .the-header.menu-opened .burger-container {
+    .the-header.menu-opened .burger-container
+    {
         -webkit-transform: rotate(90deg);
                 transform: rotate(90deg);
     }
-    .the-header.menu-opened .burger-container #burger .bar {
-        -webkit-transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        -webkit-transition-delay: 0.2s;
-                transition-delay: 0.2s;
+    .the-header.menu-opened .burger-container #burger .bar
+    {
+        -webkit-transition: all .4s cubic-bezier(.4, .01, .165, .99);
+                transition: all .4s cubic-bezier(.4, .01, .165, .99);
+        -webkit-transition-delay: .2s;
+                transition-delay: .2s;
     }
-    .the-header.menu-opened .burger-container #burger .bar.topBar {
+    .the-header.menu-opened .burger-container #burger .bar.topBar
+    {
         -webkit-transform: translateY(4px) rotate(45deg);
                 transform: translateY(4px) rotate(45deg);
     }
-    .the-header.menu-opened .burger-container #burger .bar.btmBar {
+    .the-header.menu-opened .burger-container #burger .bar.btmBar
+    {
         -webkit-transform: translateY(3px) rotate(-45deg);
                 transform: translateY(3px) rotate(-45deg);
-    }  
-    footer .menu ul {
+    }
+    footer .menu ul
+    {
         text-align: center;
-    }      
+    }
 }
 
 
 /* mobile view */
-@media only screen 
-  and (min-width: 320px) 
-  and (max-width: 568px) 
-  and (orientation: portrait) 
+@media only screen
+  and (min-width: 320px)
+  and (max-width: 568px)
+  and (orientation: portrait)
 {
-    .flexslider {
+    .flexslider
+    {
         padding-top: 70px;
     }
-    .slide-image {
+    .slide-image
+    {
         height: 580px;
     }
-    .slide-image .content-message .intro {
+    .slide-image .content-message .intro
+    {
         font-size: 14px;
     }
-    .slide-image .content-message {
+    .slide-image .content-message
+    {
         font-size: 12px;
+
+        position: static;
+
         width: 100%;
-        position: static; 
-        padding-top: 10px;       
-    }    
-    .slide-image .content-message img {
-        float: none;
+        padding-top: 10px;
+    }
+    .slide-image .content-message img
+    {
         display: block;
+        float: none;
+
         margin: 0 auto 20px auto;
     }
-    .slide-image .content-message .the-message {
+    .slide-image .content-message .the-message
+    {
         float: none;
+
         margin: 0 auto;
     }
-    .slide-image .content-message p {
+    .slide-image .content-message p
+    {
         margin-bottom: 10px;
     }
-    .slide-image .content-message img {
+    .slide-image .content-message img
+    {
         width: 90px;
         height: 100px;
-    }  
-    .slide-image .content-message .intro {
+    }
+    .slide-image .content-message .intro
+    {
         font-size: 14px;
-    }        
-    .slide-image {
+    }
+    .slide-image
+    {
         height: 720px;
     }
-    .topbar.the-header .menu.mobile {
+    .topbar.the-header .menu.mobile
+    {
         display: block;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        margin-top: 100px;        
+
         width: 100%;
+        margin: 0;
+        margin-top: 100px;
+        padding: 0;
+
+        list-style: none;
     }
-    .the-header  .menu.mobile {
+    .the-header  .menu.mobile
+    {
         display: block!important;
     }
-    .topbar.the-header .menu.mobile li {
-        border-bottom: 1px solid #555;        
+    .topbar.the-header .menu.mobile li
+    {
+        border-bottom: 1px solid #555;
     }
-    .topbar.the-header .menu.mobile li a {
+    .topbar.the-header .menu.mobile li a
+    {
         display: block;
+
         padding: 10px 0;
+
         text-align: center;
-    } 
-    .topbar.the-header .menu.mobile li a:hover {        
+    }
+    .topbar.the-header .menu.mobile li a:hover
+    {
+        color: #36f;
         background: rgba(255,255,255,.2);
-        color: #3366ff;
-    }    
-      .hero .content .inner-content .the-message {      
-          width: 100%!important;
-      }    
-        h1.logo {
-            margin: 0;
-            padding: 0;
-            position: absolute;    
-            top: 0;
-            left: 0;
-        }
-        h1.logo a {
-            background: url('../images/tesda_logo.png') no-repeat;
-            background-size: contain;
-            display: block;
-            height: 44px;
-            width: 278px;
-        }
+    }
+    .hero .content .inner-content .the-message
+    {
+        width: 100%!important;
+    }
+    h1.logo
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
 
-      .hero .the-message,
-      .hero img {
-          float: none;
-          display: block;
-          margin: 0 auto;
-      }      
-      .bottom-container h3 i {
-          font-size: 28px!important;
-          margin-left: 10px;
-      }
-      .right.menu.main {
-          display: none!important;
-      }  
-      footer {
-          height: 105px;
-      }       
-      footer .content {          
-          height: 80px;
-      }      
-      footer .content p {
-          display: block;
-          text-align: center;
-          width: 100%;
-      }
-      footer ul {
-          position: absolute;
-          top: 50px;
-          left: 0;
-      }   
+        margin: 0;
+        padding: 0;
+    }
+    h1.logo a
+    {
+        display: block;
 
-    .hero {
+        width: 278px;
+        height: 44px;
+
+        background: url('../images/tesda_logo.png') no-repeat;
+        background-size: contain;
+    }
+
+    .hero .the-message,
+    .hero img
+    {
+        display: block;
+        float: none;
+
+        margin: 0 auto;
+    }
+    .bottom-container h3 i
+    {
+        font-size: 28px!important;
+
+        margin-left: 10px;
+    }
+    .right.menu.main
+    {
+        display: none!important;
+    }
+    footer
+    {
+        height: 105px;
+    }
+    footer .content
+    {
+        height: 80px;
+    }
+    footer .content p
+    {
+        display: block;
+
+        width: 100%;
+
+        text-align: center;
+    }
+    footer ul
+    {
+        position: absolute;
+        top: 50px;
+        left: 0;
+    }
+
+    .hero
+    {
         padding-top: 40px;
     }
 
-    .the-header {
+    .the-header
+    {
         position: absolute;
-        display: block;
+        z-index: 1;
         top: 0;
         left: 0;
-        margin-bottom: 30px;
-        height: 70px;
-        width: 100%;
-        background: rgba(0, 0, 0, 0.8);
+
+        display: block;
         overflow: hidden;
-        -webkit-transition: all 0.5s ease-out, background 1s ease-out;
-        transition: all 0.5s ease-out, background 1s ease-out;
-        -webkit-transition-delay: 0.2s;
-                transition-delay: 0.2s;
-        z-index: 1;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
-    }
-    .the-header .burger-container {
-        position: absolute;
-        right: 10px;
-        top: 0;
-        margin-top: -10px;
-        display: inline-block;
+
+        width: 100%;
         height: 70px;
+        margin-bottom: 30px;
+
+        -webkit-transition: all .5s ease-out, background 1s ease-out;
+                transition: all .5s ease-out, background 1s ease-out;
+        -webkit-transition-delay: .2s;
+                transition-delay: .2s;
+
+        background: rgba(0, 0, 0, .8);
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .06);
+    }
+    .the-header .burger-container
+    {
+        position: absolute;
+        top: 0;
+        right: 10px;
+
+        display: inline-block;
+
         width: 50px;
+        height: 70px;
+        margin-top: -10px;
+
         cursor: pointer;
-        -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
-        -webkit-transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
         -webkit-user-select: none;
-            -moz-user-select: none;
+           -moz-user-select: none;
             -ms-user-select: none;
                 user-select: none;
+        -webkit-transition: all .3s cubic-bezier(.4, .01, .165, .99);
+                transition: all .3s cubic-bezier(.4, .01, .165, .99);
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+
         -webkit-tap-highlight-color: transparent;
     }
-    .the-header .burger-container #burger {
+    .the-header .burger-container #burger
+    {
+        position: relative;
+        top: 45%;
+
+        display: block;
+
         width: 18px;
         height: 8px;
-        position: relative;
-        display: block;
         margin: -4px auto 0;
-        top: 45%;
     }
-    .the-header .burger-container #burger .bar {
+    .the-header .burger-container #burger .bar
+    {
+        position: relative;
+
+        display: block;
+
         width: 100%;
         height: 1px;
-        display: block;
-        position: relative;
-        background: #fff;
-        -webkit-transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+
+        -webkit-transition: all .3s cubic-bezier(.4, .01, .165, .99);
+                transition: all .3s cubic-bezier(.4, .01, .165, .99);
         -webkit-transition-delay: 0s;
                 transition-delay: 0s;
+
+        background: #fff;
     }
-    .the-header .burger-container #burger .bar.topBar {
+    .the-header .burger-container #burger .bar.topBar
+    {
         -webkit-transform: translateY(0px) rotate(0deg);
                 transform: translateY(0px) rotate(0deg);
     }
-    .the-header .burger-container #burger .bar.btmBar {
+    .the-header .burger-container #burger .bar.btmBar
+    {
         -webkit-transform: translateY(6px) rotate(0deg);
                 transform: translateY(6px) rotate(0deg);
     }
 
-    .the-header.menu {
+    .the-header.menu
+    {
         margin: 0!important;
     }
-    
-    
-    .the-header.menu-opened {
+
+
+    .the-header.menu-opened
+    {
         height: 100%;
         /*background-color: #000;*/
-        -webkit-transition: all 0.3s ease-in, background 0.5s ease-in;
-        transition: all 0.3s ease-in, background 0.5s ease-in;
-        -webkit-transition-delay: 0.25s;
-                transition-delay: 0.25s;
+
+        -webkit-transition: all .3s ease-in, background .5s ease-in;
+                transition: all .3s ease-in, background .5s ease-in;
+        -webkit-transition-delay: .25s;
+                transition-delay: .25s;
     }
-    .the-header.menu-opened .burger-container {
+    .the-header.menu-opened .burger-container
+    {
         -webkit-transform: rotate(90deg);
                 transform: rotate(90deg);
     }
-    .the-header.menu-opened .burger-container #burger .bar {
-        -webkit-transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        -webkit-transition-delay: 0.2s;
-                transition-delay: 0.2s;
+    .the-header.menu-opened .burger-container #burger .bar
+    {
+        -webkit-transition: all .4s cubic-bezier(.4, .01, .165, .99);
+                transition: all .4s cubic-bezier(.4, .01, .165, .99);
+        -webkit-transition-delay: .2s;
+                transition-delay: .2s;
     }
-    .the-header.menu-opened .burger-container #burger .bar.topBar {
+    .the-header.menu-opened .burger-container #burger .bar.topBar
+    {
         -webkit-transform: translateY(4px) rotate(45deg);
                 transform: translateY(4px) rotate(45deg);
     }
-    .the-header.menu-opened .burger-container #burger .bar.btmBar {
+    .the-header.menu-opened .burger-container #burger .bar.btmBar
+    {
         -webkit-transform: translateY(3px) rotate(-45deg);
                 transform: translateY(3px) rotate(-45deg);
     }
-    .slide-image .content {
+    .slide-image .content
+    {
         font-size: 14px;
+
         right: 35px;
+
         width: 80%;
-    }               
-    .slide-image .content h2 {
+    }
+    .slide-image .content h2
+    {
         font-size: 22px;
     }
 }
 
 /*mobile view landscape*/
-@media only screen 
-  and (min-width: 320px) 
-  and (max-width: 568px) 
-  and (orientation: landscape) 
+@media only screen
+  and (min-width: 320px)
+  and (max-width: 568px)
+  and (orientation: landscape)
 {
-    .flexslider {
+    .flexslider
+    {
         padding-top: 70px;
     }
-    .slide-image {
+    .slide-image
+    {
         height: 380px;
     }
-    .slide-image .content-message .intro {
+    .slide-image .content-message .intro
+    {
         font-size: 14px;
     }
-    .slide-image .content-message {
+    .slide-image .content-message
+    {
         font-size: 12px;
+
+        position: static;
+
         width: 100%;
-        position: static; 
-        padding-top: 20px;       
-    }    
-    .slide-image .content-message img {
-        float: none;
+        padding-top: 20px;
+    }
+    .slide-image .content-message img
+    {
         display: block;
+        float: none;
+
         margin: 0 auto 20px auto;
     }
-    .slide-image .content-message .the-message {
-        float: none;
+    .slide-image .content-message .the-message
+    {
         display: block;
+        float: none;
+
         margin: 0 auto 10px auto;
-    }    
-    .slide-image {
-        height: 570px
     }
-    .slide-image .content-message p {
+    .slide-image
+    {
+        height: 570px;
+    }
+    .slide-image .content-message p
+    {
         margin-bottom: 10px;
     }
-    .slide-image .content-message img {
+    .slide-image .content-message img
+    {
         width: 90px;
         height: 100px;
-    }  
-    .slide-image .content-message .intro {
-        font-size: 14px;
-    }     
-    .topbar.the-header .menu.mobile {
-        display: block;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        margin-top: 100px;        
-        width: 100%;
     }
-    .the-header  .menu.mobile {
+    .slide-image .content-message .intro
+    {
+        font-size: 14px;
+    }
+    .topbar.the-header .menu.mobile
+    {
+        display: block;
+
+        width: 100%;
+        margin: 0;
+        margin-top: 100px;
+        padding: 0;
+
+        list-style: none;
+    }
+    .the-header  .menu.mobile
+    {
         display: block!important;
     }
-    .topbar.the-header .menu.mobile li {
-        border-bottom: 1px solid #555;        
+    .topbar.the-header .menu.mobile li
+    {
+        border-bottom: 1px solid #555;
     }
-    .topbar.the-header .menu.mobile li a {
+    .topbar.the-header .menu.mobile li a
+    {
         display: block;
+
         padding: 10px 0;
+
         text-align: center;
-    } 
-    .topbar.the-header .menu.mobile li a:hover {        
+    }
+    .topbar.the-header .menu.mobile li a:hover
+    {
+        color: #36f;
         background: rgba(255,255,255,.2);
-        color: #3366ff;
-    }    
-      .hero .content .inner-content .the-message {      
-          width: 100%!important;
-      }    
-        h1.logo {
-            margin: 0;
-            padding: 0;
-            position: absolute;    
-            top: 0;
-            left: 0;
-        }
-        h1.logo a {
-            background: url('../images/tesda_logo.png') no-repeat;
-            background-size: contain;
-            display: block;
-            height: 44px;
-            width: 278px;
-        }
+    }
+    .hero .content .inner-content .the-message
+    {
+        width: 100%!important;
+    }
+    h1.logo
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
 
-      .hero .the-message,
-      .hero img {
-          float: none;
-          display: block;
-          margin: 0 auto;
-      }      
-      .bottom-container h3 i {
-          font-size: 28px!important;
-          margin-left: 10px;
-      }
-      .right.menu.main {
-          display: none!important;
-      }  
-      footer {
-          height: 105px;
-      }       
-      footer .content {
-          height: 80px;
-      }
-      footer .content p {
-          display: block;
-          text-align: center;
-          width: 100%;
-      }
-      footer ul {
-          position: absolute;
-          top: 50px;
-          left: 30px;
-      }   
+        margin: 0;
+        padding: 0;
+    }
+    h1.logo a
+    {
+        display: block;
 
-    .hero {
+        width: 278px;
+        height: 44px;
+
+        background: url('../images/tesda_logo.png') no-repeat;
+        background-size: contain;
+    }
+
+    .hero .the-message,
+    .hero img
+    {
+        display: block;
+        float: none;
+
+        margin: 0 auto;
+    }
+    .bottom-container h3 i
+    {
+        font-size: 28px!important;
+
+        margin-left: 10px;
+    }
+    .right.menu.main
+    {
+        display: none!important;
+    }
+    footer
+    {
+        height: 105px;
+    }
+    footer .content
+    {
+        height: 80px;
+    }
+    footer .content p
+    {
+        display: block;
+
+        width: 100%;
+
+        text-align: center;
+    }
+    footer ul
+    {
+        position: absolute;
+        top: 50px;
+        left: 30px;
+    }
+
+    .hero
+    {
         padding-top: 40px;
     }
 
-    .the-header {
+    .the-header
+    {
         position: absolute;
-        display: block;
+        z-index: 1;
         top: 0;
         left: 0;
-        margin-bottom: 30px;
-        height: 70px;
-        width: 100%;
-        background: rgba(0, 0, 0, 0.8);
+
+        display: block;
         overflow: hidden;
-        -webkit-transition: all 0.5s ease-out, background 1s ease-out;
-        transition: all 0.5s ease-out, background 1s ease-out;
-        -webkit-transition-delay: 0.2s;
-                transition-delay: 0.2s;
-        z-index: 1;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
-    }
-    .the-header .burger-container {
-        position: absolute;
-        right: 10px;
-        top: 0;
-        margin-top: -10px;
-        display: inline-block;
+
+        width: 100%;
         height: 70px;
+        margin-bottom: 30px;
+
+        -webkit-transition: all .5s ease-out, background 1s ease-out;
+                transition: all .5s ease-out, background 1s ease-out;
+        -webkit-transition-delay: .2s;
+                transition-delay: .2s;
+
+        background: rgba(0, 0, 0, .8);
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .06);
+    }
+    .the-header .burger-container
+    {
+        position: absolute;
+        top: 0;
+        right: 10px;
+
+        display: inline-block;
+
         width: 50px;
+        height: 70px;
+        margin-top: -10px;
+
         cursor: pointer;
-        -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
-        -webkit-transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
         -webkit-user-select: none;
-            -moz-user-select: none;
+           -moz-user-select: none;
             -ms-user-select: none;
                 user-select: none;
+        -webkit-transition: all .3s cubic-bezier(.4, .01, .165, .99);
+                transition: all .3s cubic-bezier(.4, .01, .165, .99);
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+
         -webkit-tap-highlight-color: transparent;
     }
-    .the-header .burger-container #burger {
+    .the-header .burger-container #burger
+    {
+        position: relative;
+        top: 45%;
+
+        display: block;
+
         width: 18px;
         height: 8px;
-        position: relative;
-        display: block;
         margin: -4px auto 0;
-        top: 45%;
     }
-    .the-header .burger-container #burger .bar {
+    .the-header .burger-container #burger .bar
+    {
+        position: relative;
+
+        display: block;
+
         width: 100%;
         height: 1px;
-        display: block;
-        position: relative;
-        background: #fff;
-        -webkit-transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+
+        -webkit-transition: all .3s cubic-bezier(.4, .01, .165, .99);
+                transition: all .3s cubic-bezier(.4, .01, .165, .99);
         -webkit-transition-delay: 0s;
                 transition-delay: 0s;
+
+        background: #fff;
     }
-    .the-header .burger-container #burger .bar.topBar {
+    .the-header .burger-container #burger .bar.topBar
+    {
         -webkit-transform: translateY(0px) rotate(0deg);
                 transform: translateY(0px) rotate(0deg);
     }
-    .the-header .burger-container #burger .bar.btmBar {
+    .the-header .burger-container #burger .bar.btmBar
+    {
         -webkit-transform: translateY(6px) rotate(0deg);
                 transform: translateY(6px) rotate(0deg);
     }
 
-    .the-header.menu {
+    .the-header.menu
+    {
         margin: 0!important;
     }
-    
-    
-    .the-header.menu-opened {
+
+
+    .the-header.menu-opened
+    {
         height: 100%;
         /*background-color: #000;*/
-        -webkit-transition: all 0.3s ease-in, background 0.5s ease-in;
-        transition: all 0.3s ease-in, background 0.5s ease-in;
-        -webkit-transition-delay: 0.25s;
-                transition-delay: 0.25s;
+
+        -webkit-transition: all .3s ease-in, background .5s ease-in;
+                transition: all .3s ease-in, background .5s ease-in;
+        -webkit-transition-delay: .25s;
+                transition-delay: .25s;
     }
-    .the-header.menu-opened .burger-container {
+    .the-header.menu-opened .burger-container
+    {
         -webkit-transform: rotate(90deg);
                 transform: rotate(90deg);
     }
-    .the-header.menu-opened .burger-container #burger .bar {
-        -webkit-transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-        -webkit-transition-delay: 0.2s;
-                transition-delay: 0.2s;
+    .the-header.menu-opened .burger-container #burger .bar
+    {
+        -webkit-transition: all .4s cubic-bezier(.4, .01, .165, .99);
+                transition: all .4s cubic-bezier(.4, .01, .165, .99);
+        -webkit-transition-delay: .2s;
+                transition-delay: .2s;
     }
-    .the-header.menu-opened .burger-container #burger .bar.topBar {
+    .the-header.menu-opened .burger-container #burger .bar.topBar
+    {
         -webkit-transform: translateY(4px) rotate(45deg);
                 transform: translateY(4px) rotate(45deg);
     }
-    .the-header.menu-opened .burger-container #burger .bar.btmBar {
+    .the-header.menu-opened .burger-container #burger .bar.btmBar
+    {
         -webkit-transform: translateY(3px) rotate(-45deg);
                 transform: translateY(3px) rotate(-45deg);
-    }        
-    footer .menu ul {
+    }
+    footer .menu ul
+    {
         text-align: center;
-    }       
+    }
 }
 
 
-@media only screen 
-  and (min-width: 320px) 
-  and (max-width: 480px) 
-  and (orientation: landscape) {
-    .slide-image {
+@media only screen
+  and (min-width: 320px)
+  and (max-width: 480px)
+  and (orientation: landscape)
+{
+    .slide-image
+    {
         height: 580px;
     }
 }
 
 /*22 inches monitors*/
-@media only screen 
-  and (min-width: 1680px)   
-  {
-    .slide-image {
+@media only screen
+  and (min-width: 1680px)
+{
+    .slide-image
+    {
         height: 620px;
     }
-    .slide-image .content-message {    
+    .slide-image .content-message
+    {
         font-size: 18px;
+
         padding: 70px 30px 0 30px;
     }
-    .slide-image .content-message .intro {    
+    .slide-image .content-message .intro
+    {
         font-family: 'Flama-Medium';
-        font-size: 22px;    
-    }    
-
-  }
+        font-size: 22px;
+    }
+}
 
 /*24 inches monitor*/
-@media only screen 
-  and (min-width: 1680px)   
-  {
-    .slide-image {
+@media only screen
+  and (min-width: 1680px)
+{
+    .slide-image
+    {
         height: 720px;
     }
-    .slide-image .content-message {    
+    .slide-image .content-message
+    {
         font-size: 22px;
+
         padding: 70px 30px 0 30px;
     }
-    .slide-image .content-message .intro {    
+    .slide-image .content-message .intro
+    {
         font-family: 'Flama-Medium';
-        font-size: 26px;    
-    }    
-    .slide-image .content {
+        font-size: 26px;
+    }
+    .slide-image .content
+    {
         font-size: 20px;
+
         padding-top: 40px;
     }
-
-  }
+}
