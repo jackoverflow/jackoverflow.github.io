@@ -4,6 +4,9 @@
   and (max-width: 1094px)
   and (orientation: landscape)
 {
+    .ui.container {
+        width: 100%;
+    }
     .right.menu a
     {
         font-size: 13px!important;
@@ -45,6 +48,10 @@
   and (max-width: 1024px)
   and (orientation: portrait)
 {
+    .ui.container {
+        width: 100%;
+    }
+
     .flexslider
     {
         padding-top: 70px;
@@ -291,6 +298,9 @@
   and (max-width: 995px)
   and (orientation: landscape)
 {
+    ,ui.container {
+      width: 100%;
+    }
     .topbar.the-header .menu.mobile
     {
         display: block;
@@ -513,6 +523,11 @@
   and (max-width: 800px)
   and (orientation: portrait)
 {
+    ,ui.container {
+      margin: 0;
+      width: 100%!important;
+    }
+
     .flexslider
     {
         padding-top: 70px;
@@ -770,6 +785,11 @@
                 transform: translateY(3px) rotate(-45deg);
     }
 
+    .ui.container {
+        margin: 0!important;
+        width: 100%!important;
+    }
+
     .slide-image .content
     {
         right: 60px;
@@ -784,6 +804,10 @@
   and (max-width: 800px)
   and (orientation: landscape)
 {
+    .ui.container {
+        width: 100%;
+    }
+
     .flexslider
     {
         padding-top: 70px;
@@ -811,6 +835,10 @@
   and (max-width: 800px)
   and (orientation: portrait)
 {
+    ,ui.container {
+      width: 100%;
+    }
+
     .topbar.the-header .menu.mobile
     {
         display: block;
@@ -1047,6 +1075,9 @@
   and (max-width: 800px)
   and (orientation: landscape)
 {
+    ,ui.container {
+      width: 100%;
+    }
     .topbar.the-header .menu.mobile
     {
         display: block;
@@ -1284,6 +1315,11 @@
   and (max-width: 568px)
   and (orientation: portrait)
 {
+    .ui.container {
+        margin: 0!important;
+        width: 100%!important;
+    }
+
     .flexslider
     {
         padding-top: 70px;
@@ -1579,6 +1615,11 @@
   and (max-width: 568px)
   and (orientation: landscape)
 {
+    .ui.container {
+        margin: 0!important;
+        width: 100%!important;
+    }
+
     .flexslider
     {
         padding-top: 70px;
@@ -1867,6 +1908,9 @@
   and (max-width: 480px)
   and (orientation: landscape)
 {
+    .ui-container {
+      width: 100%;
+    }
     .slide-image
     {
         height: 580px;
