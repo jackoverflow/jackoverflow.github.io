@@ -36,7 +36,7 @@ body
 body
 {
     font-family: 'Flama-Light';
-    font-size: 16px;
+    font-size: 18px;
 }
 h1.logo
 {
@@ -346,6 +346,10 @@ main .courses a.viewallcourses:hover i.angle
 
     color: #7e2323;
 }
+.ui.grid.three .content {
+    font-size: 16px;
+}
+
 .courses .ui.blue.label
 {
     background: #36f!important;
@@ -485,3 +489,36 @@ footer li a
 {
     color: #7f8187;
 }
+
+
+/* about us page */
+.subpage-banner {
+    display: block;
+
+    width: 100%;
+    height: 300px;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;    
+
+    margin-bottom: 40px;            
+}
+main {
+    min-height: 500px;
+}
+.subpage h2 {
+    color: #1D58F3;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.subpage main {
+    padding-bottom: 30px;
+}
+.tabular.menu {
+    font-size: 16px;
+}
+
