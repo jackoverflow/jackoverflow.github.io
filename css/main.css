@@ -507,7 +507,7 @@ footer li a
     margin-bottom: 40px;            
 }
 main {
-    min-height: 750px;
+    min-height: 500px;
 }
 .subpage h2 {
     color: #1D58F3;
@@ -524,11 +524,25 @@ main {
 /*program-offerings*/
 .program-offerings main {
     padding-top: 140px;
+    height: 700;
 }
 
 .program-offerings .ui.responsive.cards {
     margin-left: -0.75em;
     margin-right: -0.75em;
+}
+
+.program-offerings .card {
+    position: relative!important;
+}
+.program-offerings .readmore {
+    color: #a62e2e;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.program-offerings .readmore:hover {
+    color: #7e2323;
 }
 .ui.responsive.cards > .card {
     width: calc( 25% - 1.5em );
