@@ -290,6 +290,7 @@
         -webkit-transform: translateY(3px) rotate(-45deg);
                 transform: translateY(3px) rotate(-45deg);
     }
+    
 }
 
 /*ipad landscape*/
@@ -795,7 +796,7 @@
         right: 60px;
 
         width: 80%;
-    }
+    }    
 }
 
 /*small ipad landscape*/
@@ -827,6 +828,7 @@
     {
         font-size: 16px;
     }
+
 }
 
 /*samsumg galaxy view*/
@@ -1067,6 +1069,7 @@
     {
         text-align: center;
     }
+    
 }
 
 /*samsung galaxy landscape view*/
@@ -1305,7 +1308,7 @@
     footer .menu ul
     {
         text-align: center;
-    }
+    }    
 }
 
 
@@ -1606,7 +1609,7 @@
     .slide-image .content h2
     {
         font-size: 22px;
-    }
+    }    
 }
 
 /*mobile view landscape*/
@@ -1915,6 +1918,14 @@
     {
         height: 580px;
     }
+
+    .ui.responsive.cards {
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .ui.responsive.cards > .card {
+        width: 90%;
+    }    
 }
 
 /*22 inches monitors*/

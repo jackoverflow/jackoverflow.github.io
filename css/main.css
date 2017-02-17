@@ -533,7 +533,10 @@ main {
 }
 
 .program-offerings .card {
-    position: relative!important;
+    position: relative!important;    
+}
+.program-offerings .card .description {
+    margin-bottom:  25px;
 }
 .program-offerings .readmore {
     color: #a62e2e;
@@ -543,9 +546,4 @@ main {
 }
 .program-offerings .readmore:hover {
     color: #7e2323;
-}
-.ui.responsive.cards > .card {
-    width: calc( 25% - 1.5em );
-    margin-left: 0.75em;
-    margin-right: 0.75em;
 }
