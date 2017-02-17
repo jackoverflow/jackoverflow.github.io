@@ -1919,13 +1919,6 @@
         height: 580px;
     }
 
-    .ui.responsive.cards {
-        margin-left: 0em;
-        margin-right: 0em;
-    }
-    .ui.responsive.cards > .card {
-        width: 90%;
-    }    
 }
 
 /*22 inches monitors*/

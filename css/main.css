@@ -527,11 +527,6 @@ main {
     height: 700;
 }
 
-.program-offerings .ui.responsive.cards {
-    margin-left: -0.75em;
-    margin-right: -0.75em;
-}
-
 .program-offerings .card {
     position: relative!important;    
 }
