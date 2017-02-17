@@ -507,7 +507,7 @@ footer li a
     margin-bottom: 40px;            
 }
 main {
-    min-height: 500px;
+    min-height: 750px;
 }
 .subpage h2 {
     color: #1D58F3;
@@ -521,3 +521,17 @@ main {
     font-size: 16px;
 }
 
+/*program-offerings*/
+.program-offerings main {
+    padding-top: 140px;
+}
+
+.program-offerings .ui.responsive.cards {
+    margin-left: -0.75em;
+    margin-right: -0.75em;
+}
+.ui.responsive.cards > .card {
+    width: calc( 25% - 1.5em );
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
