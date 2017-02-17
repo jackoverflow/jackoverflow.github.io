@@ -14,15 +14,16 @@ $(window).load(function(){
 $(document).ready(function(){
     $("ul.slides li").each(function(a) {
         $(this).find("div.slide-image").css("background-image" , 'url("' + $(this).find("img").attr("src") + '")');
-        $(this).find("img.bg").hide();
+        $(this).find("img:first").hide();        
     });
 
     var subpagebanner = $(".subpage-banner");
     subpagebanner.css("background-image" , 'url("' + $(this).find("img").attr("src") + '")');
     subpagebanner.find('img').hide();    
 
-    if ($('.menu .item').length > 0) 
+    if ($('.tabular.menu').length > 0) { 
         $('.menu .item').tab();    
+    }
     
 });
 
