@@ -457,6 +457,8 @@ footer
 }
 footer .content
 {
+    background: #081e43;
+    
     position: relative;
 
     overflow: hidden;
