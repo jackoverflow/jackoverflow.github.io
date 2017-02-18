@@ -796,7 +796,10 @@
         right: 60px;
 
         width: 80%;
-    }    
+    }
+    .program-offerings .cards {
+        margin-top: 20px;
+    }        
 }
 
 /*small ipad landscape*/
@@ -1610,6 +1613,9 @@
     {
         font-size: 22px;
     }    
+    .program-offerings .cards {
+        margin-top: 20px;
+    }    
 }
 
 /*mobile view landscape*/
@@ -1903,6 +1909,9 @@
     {
         text-align: center;
     }
+    .program-offerings .cards {
+        margin-top: 20px;
+    }    
 }
 
 
@@ -1918,6 +1927,9 @@
     {
         height: 580px;
     }
+    .program-offerings .cards {
+        margin-top: 20px;
+    }    
 
 }
 
