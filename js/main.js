@@ -18,10 +18,6 @@ $(document).ready(function(){
         $(this).find("img:first").hide();
     });
 
-    var subpagebanner = $(".subpage-banner");
-    subpagebanner.css("background-image" , 'url("' + $(this).find("img").attr("src") + '")');
-    subpagebanner.find('img').hide();
-
     if ($('.tabular.menu').length > 0) {
         $('.menu .item').tab();
     }
