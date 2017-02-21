@@ -526,6 +526,10 @@ main {
   width: 100%;
 }
 
+.subpage .ui.grid.two.column img {
+  width: 100%;
+}
+
 /*program-offerings*/
 .subpage main {
     padding-top: 120px;
