@@ -1,0 +1,552 @@
+@font-face
+{
+    font-family: 'Flama-Light';
+    font-weight: normal;
+    font-style: normal;
+
+    src: local('Flama-Light'), url('Flama-Light/Flama-Light.woff') format('woff');
+}
+@font-face
+{
+    font-family: 'Flama-Medium';
+    font-weight: normal;
+    font-style: normal;
+
+    src: local('Flama-Medium'), url('Flama-Medium/Flama-Medium.woff') format('woff');
+}
+@font-face
+{
+    font-family: 'Flama-LightItalic';
+    font-weight: normal;
+    font-style: normal;
+
+    src: local('Flama-LightItalic'), url('Flama-Light-Italic/Flama-LightItalic.woff') format('woff');
+}
+html,
+body
+{
+    min-height: 100%;
+}
+
+.ir
+{
+    text-indent: -9999px;
+}
+
+body
+{
+    font-family: 'Flama-Light';
+    font-size: 18px;
+}
+h1.logo
+{
+    position: absolute;
+    top: -10px;
+    left: 0;
+
+    margin: 0;
+    padding: 0;
+}
+h1.logo a
+{
+    display: block;
+
+    width: 398px;
+    height: 64px;
+
+    background: url('../images/tesda_logo.png') no-repeat;
+    background-size: contain;
+}
+
+.burger-container,
+.menu.mobile,
+.shop.icon
+{
+    position: absolute;
+}
+.topbar
+{
+    position: fixed;
+    z-index: 1;
+
+    width: 100%;
+    padding: 15px 0 25px 0;
+
+    background: #081e43;
+}
+.topbar .container
+{
+    position: relative;
+}
+.topbar .secondary.menu a
+{
+    font-size: 14px;
+
+    margin: 0!important;
+
+    text-transform: uppercase;
+
+    color: #7f8187;
+}
+.topbar .secondary.menu .right a:hover,
+.topbar .secondary.menu .right a.active,
+.topbar .secondary.menu .right a.active:hover
+{
+    color: #36f;
+}
+.topbar.header .menu.mobile
+{
+    display: none;
+}
+.the-header  .menu.mobile
+{
+    display: none!important;
+}
+.hero
+{
+    height: auto;
+    margin-bottom: 40px;
+
+    background: url('../images/hero.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.hero .content
+{
+    height: auto;
+    padding: 20px 0 30px;
+}
+.hero .inner-content
+{
+    overflow: hidden;
+
+    padding: 30px 0;
+}
+.hero .inner-content img
+{
+    display: block;
+    float: left;
+
+    width: 170px;
+    height: 180px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+
+    border: 6px solid #fff;
+    border-radius: 50%;
+}
+.hero .content .the-message
+{
+    font-family: 'Flama-Light';
+    font-size: 16px;
+
+    float: right;
+
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 40px;
+
+    color: #fff;
+}
+.hero .content .intro
+{
+    font-family: 'Flama-LightItalic';
+    font-size: 18px;
+}
+.hero .content .name
+{
+    font-family: 'Flama-Medium';
+
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+.flexslider
+{
+    padding-top: 80px;
+
+    border: none;
+}
+.slide-image
+{
+    position: relative;
+
+    display: block;
+
+    width: 100%;
+    height: 500px;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+.slide-image .content h2
+{
+    margin-top: 0;
+}
+.slide-image .content
+{
+    line-height: 1.5;
+
+    position: absolute;
+    right: 30px;
+    bottom: 15px;
+
+    width: 45%;
+    height: auto;
+    min-height: 45%;
+    padding: 10px 20px 15px;
+
+    color: #fff;
+    border-radius: 3px;
+    background: rgba(0, 62, 120, .7)!important;
+}
+.slide-image a.moreinfo
+{
+    display: inline-block;
+
+    padding: 5px 15px;
+
+    text-decoration: none;
+
+    color: #fff;
+    border-radius: 5px;
+    background: #660c00;
+}
+.slide-image a.moreinfo:hover
+{
+    background: #dd4c56;
+}
+.slide-image .content-message
+{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+
+    overflow: hidden;
+
+    width: 90%;
+    height: auto;
+    min-height: 90%;
+    padding: 40px 30px 0 30px;
+
+    color: #fff;
+    border-radius: 3px;
+}
+.slide-image .the-message
+{
+    float: left;
+
+    width: 80%;
+}
+.slide-image .content-message .intro
+{
+    font-family: 'Flama-Medium';
+    font-size: 18px;
+}
+.slide-image .content-message .name
+{
+    font-family: 'Flama-Medium';
+}
+.slide-image .content-message .position
+{
+    font-family: 'Flama-LightItalic';
+}
+.slide-image .content-message img
+{
+    float: left;
+
+    width: 170px;
+    height: 180px;
+    margin: 10px 20px 10px 0;
+
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+.slide-image .content-message .message
+{
+    float: right;
+}
+.flexslider .flex-direction-nav
+{
+    display: none;
+}
+.flexslider .flex-control-nav a
+{
+    width: 15px;
+    height: 15px;
+}
+.flexslider .flex-control-paging li a.flex-active
+{
+    background: rgba(8, 30, 67, .8);
+}
+main .content img
+{
+    display: block;
+
+    width: 100%;
+}
+main .courses
+{
+    font-family: 'Flama-Light';
+}
+main .courses h3
+{
+    font-family: 'Flama-Light';
+    font-size: 24px;
+
+    text-transform: uppercase;
+}
+main .courses .readmore
+{
+    font-size: 12px;
+
+    display: inline-block;
+
+    margin-top: 10px;
+    padding: 5px 15px;
+
+    text-transform: uppercase;
+
+    color: #fff;
+    background: #36f;
+}
+main .courses .readmore:hover
+{
+    background: #4d79ff;
+}
+main .courses
+{
+    position: relative;
+
+    padding-bottom: 40px!important;
+}
+main .courses a.viewallcourses
+{
+    font-family: 'Flama-LightItalic';
+    font-weight: bold;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    color: #a62e2e;
+}
+main .courses a.viewallcourses:hover,
+main .courses a.viewallcourses:hover i.angle
+{
+    cursor: pointer;
+    -webkit-transition: color .5s ease;
+       -moz-transition: color .5s ease;
+            transition: color .5s ease;
+
+    color: #7e2323;
+}
+.ui.grid.three .content {
+    font-size: 16px;
+}
+
+.courses .ui.blue.label
+{
+    background: #36f!important;
+}
+.courses .ui.blue.label:hover
+{
+    transition: background-color ease .5s;
+
+    background: #4d79ff!important;
+}
+.bottom-container
+{
+    margin-top: 40px;
+    padding-top: 30px;
+
+    background: #e1e1e1;
+}
+
+.bottom-container h3.ui.header
+{
+    font-family: 'Flama-Light';
+    font-size: 24px;
+
+    padding-bottom: 10px;
+
+    text-transform: uppercase;
+
+    border-bottom: 1px solid #fff;
+}
+.block-container .block
+{
+    font-family: 'Flama-Light';
+
+    overflow: hidden;
+}
+.bottom-container .block p.date
+{
+    font-family: 'Flama-LightItalic';
+}
+.bottom-container .block a
+{
+    font-family: 'Flama-Light';
+    font-size: 18px;
+
+    text-transform: uppercase;
+
+    color: #000;
+}
+.bottom-container .block a:hover
+{
+    color: #7e2323;
+}
+.bottom-container .block a.moreinfo
+{
+    font-family: 'Flama-LightItalic';
+    font-size: 16px;
+
+    float: right;
+
+    text-transform: initial;
+
+    color: #a62e2e;
+}
+.bottom-container .block a.moreinfo:hover
+{
+    color: #7e2323;
+}
+.block .item,
+.block .faq-content
+{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+    border-bottom: 1px dotted #999;
+}
+.block .faq-content:hover
+{
+    cursor: pointer;
+}
+.block .faq-content:hover h4
+{
+    color: #7e2323;
+}
+.block .faq-content a
+{
+    text-transform: none;
+}
+.bottom .owl-nav
+{
+    display: none;
+}
+.bottom .owl-dot span
+{
+    width: 15px!important;
+    height: 15px!important;
+}
+footer
+{
+    position: relative;
+
+    padding: 30px 0 0 0;
+
+    color: #7f8187;
+    background: #081e43;
+;
+}
+footer .content
+{
+    background: #081e43;
+
+    position: relative;
+
+    overflow: hidden;
+}
+footer ul
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+footer li
+{
+    display: inline-block;
+
+    padding: 0 10px;
+
+    border-left: 1px solid #888;
+}
+footer li:first-child
+{
+    border-left: 0;
+}
+footer li a
+{
+    color: #7f8187;
+}
+
+
+/* about us page */
+.subpage-banner {
+    display: block;
+
+    width: 100%;
+    height: 300px;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+
+    margin-bottom: 40px;
+}
+main {
+    min-height: 500px;
+}
+.subpage h2 {
+    color: #1D58F3;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.subpage main {
+    padding-bottom: 30px;
+}
+.tabular.menu {
+    font-size: 16px;
+}
+.subpage iframe {
+  width: 100%;
+}
+
+.subpage .ui.grid.two.column img {
+  width: 100%;
+}
+
+/*program-offerings*/
+.subpage main {
+    padding-top: 120px;
+}
+
+.program-offerings .card {
+    position: relative!important;
+}
+.program-offerings .card .description {
+    margin-bottom:  25px;
+}
+.program-offerings .readmore {
+    color: #a62e2e;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.program-offerings .readmore:hover {
+    color: #7e2323;
+}
