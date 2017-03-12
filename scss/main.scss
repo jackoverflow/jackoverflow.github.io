@@ -124,6 +124,10 @@ nav {
 .flexslider {
   border: 0;  
 }
+.flex-control-nav {
+  background: orange;
+  padding-top: 15px;
+}
 .flex-direction-nav{
   display: none;
 }
@@ -154,6 +158,7 @@ main {
       border: 0;
     }
     .card-divider {      
+      border: 1px solid #d1d1d1;
       height: 82px;      
     }
     h3 {
@@ -183,8 +188,8 @@ main {
   .card {
     border: none;
   }
-  .card-section {
-    border: 1px solid #e1e1e1;
+  .card-section{
+    border: 1px solid #d1d1d1;
   }
 }
 
